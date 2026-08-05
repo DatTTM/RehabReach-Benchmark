@@ -1,49 +1,61 @@
 # RehabReach-Benchmark
-Data sheet for the paper: "Design and Development of RehabReach: A Browser-Based Markerless Platform for Upper-Limb Rehabilitation"
+
 Technical benchmark dataset accompanying the manuscript:
 
-"RehabReach: A Browser-Based Computer Vision Platform for Upper Limb Rehabilitation"
+**"RehabReach: A Browser-Based Computer Vision Platform for Upper Limb Rehabilitation"**
 
-This repository contains system performance benchmark data collected during technical evaluation.
+This repository contains the technical benchmarking data collected during the development and evaluation of the RehabReach system.
 
-The dataset includes:
+The repository includes:
 
-• JSON summary files
-• Time-series CSV logs
-• Benchmark tables
-• Figures used in the manuscript
+- JSON summary files
+- Time-series CSV logs
+- Benchmark tables
+- Figures used in the manuscript
+- Performance monitoring source code
 
-**Benchmark Protocol**
+---
 
-Hardware
-- MacBook Air M1
-- Mac mini M4
-- Ryzen ...
+## Benchmark Protocol
 
-Browser
-Chrome ...
+### Hardware
 
-Camera
-720p
-30 fps
+- Apple MacBook Air M1
+- Apple Mac mini M4
+- Windows laptop (AMD Ryzen)
 
-Protocol
+### Software
 
-4 tasks
+- Google Chrome
+- Camera resolution: 1280 × 720
+- Camera frame rate: 30 fps
+
+### Tasks
+
+Four representative rehabilitation tasks were evaluated:
+
 - Table Wipe
 - Target
 - Ball Drop
 - Fish Hunt
 
-Duration
-1 minute / task
+### Protocol
 
-Warm-up
-5 s excluded
+- Duration: 1 minute per task
+- Warm-up period: first 5 seconds excluded
+- One benchmark session per task on each platform
 
-Metrics
-- FPS
-- Latency
-- Inference
-- Tracking
-- Heap
+### Performance Metrics
+
+- Rendering FPS
+- Tracking availability
+- MediaPipe inference time
+- End-to-end latency
+- JavaScript heap memory
+
+**No patient data are included in this repository. All benchmark data were collected using technical evaluation sessions.**
+---
+
+## License
+
+MIT License
