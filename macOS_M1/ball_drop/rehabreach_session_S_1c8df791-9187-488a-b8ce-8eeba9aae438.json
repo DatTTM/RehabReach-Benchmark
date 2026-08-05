@@ -1,0 +1,4837 @@
+{
+  "loggerVersion": "1.2.0",
+  "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+  "startTime": "2026-08-05T03:02:20.720Z",
+  "endTime": "2026-08-05T03:03:26.242Z",
+  "metadata": {
+    "loggerVersion": "1.2.0",
+    "appVersion": "1.0.0",
+    "algorithmVersion": "1.0.0",
+    "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "device": "Desktop",
+    "mediaPipeVersion": "0.10.0",
+    "cameraResolution": "640x480",
+    "sourceFPS": 30
+  },
+  "summaryStatistics": {
+    "mean_u_pinch": 0.3356,
+    "max_u_pinch": 0.9804,
+    "mean_u_grasp": 0.2149,
+    "max_u_grasp": 0.5955,
+    "total_pinch_intent_duration_sec": 22.19,
+    "total_grasp_intent_duration_sec": 0.54,
+    "number_of_accepted_actions": 0,
+    "number_of_rejected_actions": 0,
+    "execution_success_rate_percent": 100,
+    "tracking_uptime_percent": 100
+  },
+  "stats": {
+    "trackingLostEvents": 0,
+    "trackingRecoveredEvents": 0,
+    "activeFrames": 3570,
+    "trackedFrames": 3570,
+    "pinchCount": 15,
+    "graspCount": 3,
+    "rapidTransitions": 13,
+    "completedGames": 1,
+    "totalGames": 1,
+    "successRateTotal": 100,
+    "successRateCount": 1,
+    "measurements": [
+      {
+        "task": "BALLDROP",
+        "metric": "Accuracy",
+        "source": "radialError (Avg: 0.033m, Tol: 0.18m)",
+        "formula": "1 - avgError / tolerance",
+        "value": 0.8162391972151959,
+        "result": "82%"
+      },
+      {
+        "task": "BALLDROP",
+        "metric": "Success Rate",
+        "source": "dropFailures (0), totalAttempts (5)",
+        "formula": "successfulDrops / totalAttempts",
+        "value": 1,
+        "result": "100%"
+      },
+      {
+        "task": "BALLDROP",
+        "metric": "Object Control Stability",
+        "source": "stablePinchDuration (10.1s), holdDurationTotal (10.8s)",
+        "formula": "stablePinchDuration / holdDurationTotal",
+        "value": 0.93,
+        "result": "93%"
+      },
+      {
+        "task": "BALLDROP",
+        "metric": "Pinch Losses",
+        "source": "pinchLossCount (0)",
+        "formula": "sum(accidentalReleases)",
+        "value": 0,
+        "result": "0 losses"
+      },
+      {
+        "task": "BALLDROP",
+        "metric": "Accuracy",
+        "source": "radialError (Avg: 0.055m, Tol: 0.18m)",
+        "formula": "1 - avgError / tolerance",
+        "value": 0.6933672725172014,
+        "result": "69%"
+      },
+      {
+        "task": "BALLDROP",
+        "metric": "Object Control Stability",
+        "source": "stablePinchDuration (10.5s), holdDurationTotal (11.4s)",
+        "formula": "stablePinchDuration / holdDurationTotal",
+        "value": 0.92,
+        "result": "92%"
+      },
+      {
+        "task": "BALLDROP",
+        "metric": "Accuracy",
+        "source": "radialError (Avg: 0.039m, Tol: 0.18m)",
+        "formula": "1 - avgError / tolerance",
+        "value": 0.7828156797885157,
+        "result": "78%"
+      }
+    ],
+    "trackingUptimePercent": 100
+  },
+  "clinicalStats": {
+    "clinicalPinchCount": 14,
+    "clinicalGraspCount": 2,
+    "clinicalGestureDurations": {
+      "pinch": [
+        1.596,
+        1.802,
+        1.373,
+        1.412,
+        1.602,
+        1.497,
+        1.696,
+        1.513,
+        1.297,
+        1.548,
+        1.732,
+        1.77,
+        1.463,
+        1.505
+      ],
+      "grasp": [
+        0.205,
+        0.339
+      ]
+    },
+    "clinicalAvgPinchDuration": 1.5575714285714286,
+    "clinicalAvgGraspDuration": 0.272
+  },
+  "eventHistory": [
+    {
+      "timestamp": 0,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "SESSION_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2499,
+      "u_grasp": 0.3217,
+      "x_pinch": -0.6546,
+      "x_grasp": -0.0006,
+      "activation": 0.3465,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0119,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Validation session initialized."
+    },
+    {
+      "timestamp": 5.569,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TRACKING_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7708,
+      "u_grasp": 0.4844,
+      "x_pinch": 6.7873,
+      "x_grasp": 1.4303,
+      "activation": 0.989,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0521,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Initial tracking acquired. Confidence: 0.99"
+    },
+    {
+      "timestamp": 5.572,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7708,
+      "u_grasp": 0.4844,
+      "x_pinch": 6.7873,
+      "x_grasp": 1.4303,
+      "activation": 0.989,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0521,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 5.572,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7708,
+      "u_grasp": 0.4844,
+      "x_pinch": 6.7873,
+      "x_grasp": 1.4303,
+      "activation": 0.989,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0521,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 7.097,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6107,
+      "u_grasp": 0.528,
+      "x_pinch": 4.4991,
+      "x_grasp": 1.8136,
+      "activation": 0.9573,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0203,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 7.097,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6107,
+      "u_grasp": 0.528,
+      "x_pinch": 4.4991,
+      "x_grasp": 1.8136,
+      "activation": 0.9573,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0203,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 7.097,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6107,
+      "u_grasp": 0.528,
+      "x_pinch": 4.4991,
+      "x_grasp": 1.8136,
+      "activation": 0.9573,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0203,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 7.141,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5868,
+      "u_grasp": 0.523,
+      "x_pinch": 4.1582,
+      "x_grasp": 1.7697,
+      "activation": 0.947,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0207,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 7.142,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5868,
+      "u_grasp": 0.523,
+      "x_pinch": 4.1582,
+      "x_grasp": 1.7697,
+      "activation": 0.947,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0207,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 7.142,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5868,
+      "u_grasp": 0.523,
+      "x_pinch": 4.1582,
+      "x_grasp": 1.7697,
+      "activation": 0.947,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0207,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 7.205,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5394,
+      "u_grasp": 0.5113,
+      "x_pinch": 3.4816,
+      "x_grasp": 1.6663,
+      "activation": 0.9186,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0235,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 7.205,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5394,
+      "u_grasp": 0.5113,
+      "x_pinch": 3.4816,
+      "x_grasp": 1.6663,
+      "activation": 0.9186,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0235,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 7.206,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5394,
+      "u_grasp": 0.5113,
+      "x_pinch": 3.4816,
+      "x_grasp": 1.6663,
+      "activation": 0.9186,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0235,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 7.332,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3874,
+      "u_grasp": 0.4376,
+      "x_pinch": 1.3098,
+      "x_grasp": 0.9981,
+      "activation": 0.6571,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0352,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8548719198970194
+      }
+    },
+    {
+      "timestamp": 7.332,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3874,
+      "u_grasp": 0.4376,
+      "x_pinch": 1.3098,
+      "x_grasp": 0.9981,
+      "activation": 0.6571,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0352,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8548719198970194
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 9.897,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3475,
+      "u_grasp": 0.2472,
+      "x_pinch": 0.8297,
+      "x_grasp": -0.363,
+      "activation": 0.4449,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0243,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0639,
+          "grasp": 0.0729
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.268314453610027
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 10.065,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5102,
+      "u_grasp": 0.2578,
+      "x_pinch": 2.2583,
+      "x_grasp": -0.2742,
+      "activation": 0.7721,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0272,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0639,
+          "grasp": 0.0729
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.46758214352143
+      }
+    },
+    {
+      "timestamp": 10.066,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5102,
+      "u_grasp": 0.2578,
+      "x_pinch": 2.2583,
+      "x_grasp": -0.2742,
+      "activation": 0.7721,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0272,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0639,
+          "grasp": 0.0729
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.46758214352143
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 11.9,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6528,
+      "u_grasp": 0.2665,
+      "x_pinch": 3.5111,
+      "x_grasp": -0.1672,
+      "activation": 0.8982,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0131,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0639,
+          "grasp": 0.0729
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.006983859503242
+      }
+    },
+    {
+      "timestamp": 11.901,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6528,
+      "u_grasp": 0.2665,
+      "x_pinch": 3.5111,
+      "x_grasp": -0.1672,
+      "activation": 0.8982,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0131,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0639,
+          "grasp": 0.0729
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.006983859503242
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 12.237,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.206,
+      "u_grasp": 0.1587,
+      "x_pinch": -0.4128,
+      "x_grasp": -0.689,
+      "activation": 0.4067,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0451,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0639,
+          "grasp": 0.0729
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.41, 1.46, -1.18)"
+    },
+    {
+      "timestamp": 12.238,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.206,
+      "u_grasp": 0.1587,
+      "x_pinch": -0.4128,
+      "x_grasp": -0.689,
+      "activation": 0.4067,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0451,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0639,
+          "grasp": 0.0729
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 1"
+    },
+    {
+      "timestamp": 14.331,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2832,
+      "u_grasp": 0.2894,
+      "x_pinch": 0.5997,
+      "x_grasp": 0.1541,
+      "activation": 0.3313,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0238,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9943257694532286
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 14.661,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4698,
+      "u_grasp": 0.311,
+      "x_pinch": 1.6878,
+      "x_grasp": 0.306,
+      "activation": 0.6721,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0228,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.1168020706720396
+      }
+    },
+    {
+      "timestamp": 14.662,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4698,
+      "u_grasp": 0.311,
+      "x_pinch": 1.6878,
+      "x_grasp": 0.306,
+      "activation": 0.6721,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0228,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.1168020706720396
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 16.065,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6192,
+      "u_grasp": 0.2944,
+      "x_pinch": 2.5591,
+      "x_grasp": 0.1589,
+      "activation": 0.8111,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0066,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.7282124572178694
+      }
+    },
+    {
+      "timestamp": 16.066,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6192,
+      "u_grasp": 0.2944,
+      "x_pinch": 2.5591,
+      "x_grasp": 0.1589,
+      "activation": 0.8111,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0066,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.7282124572178694
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 16.4,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0773,
+      "u_grasp": 0.1436,
+      "x_pinch": -0.6012,
+      "x_grasp": -0.6147,
+      "activation": 0.4282,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0377,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.40, 1.36, -1.18)"
+    },
+    {
+      "timestamp": 16.4,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0773,
+      "u_grasp": 0.1436,
+      "x_pinch": -0.6012,
+      "x_grasp": -0.6147,
+      "activation": 0.4282,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0377,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 2"
+    },
+    {
+      "timestamp": 16.934,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0033,
+      "u_grasp": 0.215,
+      "x_pinch": -1.033,
+      "x_grasp": -0.4386,
+      "activation": 0.5178,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0221,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 16.996,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0024,
+      "u_grasp": 0.218,
+      "x_pinch": -1.0377,
+      "x_grasp": -0.4142,
+      "activation": 0.5163,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0202,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 17.13,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.001,
+      "u_grasp": 0.2275,
+      "x_pinch": -1.046,
+      "x_grasp": -0.3376,
+      "activation": 0.5105,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0156,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 17.163,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0008,
+      "u_grasp": 0.2237,
+      "x_pinch": -1.0475,
+      "x_grasp": -0.3595,
+      "activation": 0.5132,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0144,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.861737672640905
+      }
+    },
+    {
+      "timestamp": 17.233,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0006,
+      "u_grasp": 0.2301,
+      "x_pinch": -1.0486,
+      "x_grasp": -0.3162,
+      "activation": 0.5093,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0136,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 17.297,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0004,
+      "u_grasp": 0.2292,
+      "x_pinch": -1.0495,
+      "x_grasp": -0.3236,
+      "activation": 0.5102,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0123,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 18.057,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3303,
+      "u_grasp": 0.3282,
+      "x_pinch": 0.8741,
+      "x_grasp": 0.4794,
+      "activation": 0.4769,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.032,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 18.102,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4038,
+      "u_grasp": 0.3409,
+      "x_pinch": 1.3028,
+      "x_grasp": 0.5825,
+      "activation": 0.6045,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0363,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 18.222,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5286,
+      "u_grasp": 0.3605,
+      "x_pinch": 2.0311,
+      "x_grasp": 0.7415,
+      "activation": 0.7547,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0413,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 18.222,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5286,
+      "u_grasp": 0.3605,
+      "x_pinch": 2.0311,
+      "x_grasp": 0.7415,
+      "activation": 0.7547,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0413,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 19.666,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6529,
+      "u_grasp": 0.3518,
+      "x_pinch": 2.7555,
+      "x_grasp": 0.6354,
+      "activation": 0.8409,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0132,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9557051544822492
+      }
+    },
+    {
+      "timestamp": 19.666,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6529,
+      "u_grasp": 0.3518,
+      "x_pinch": 2.7555,
+      "x_grasp": 0.6354,
+      "activation": 0.8409,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0132,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9557051544822492
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 20.129,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1283,
+      "u_grasp": 0.1485,
+      "x_pinch": -0.3039,
+      "x_grasp": -0.5905,
+      "activation": 0.3506,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0461,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.37, 1.30, -1.18)"
+    },
+    {
+      "timestamp": 20.129,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1283,
+      "u_grasp": 0.1485,
+      "x_pinch": -0.3039,
+      "x_grasp": -0.5905,
+      "activation": 0.3506,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0461,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 3"
+    },
+    {
+      "timestamp": 20.533,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0096,
+      "u_grasp": 0.1579,
+      "x_pinch": -0.9958,
+      "x_grasp": -0.902,
+      "activation": 0.5825,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0309,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 20.587,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0072,
+      "u_grasp": 0.1727,
+      "x_pinch": -1.0099,
+      "x_grasp": -0.7818,
+      "activation": 0.564,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0293,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 21.056,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0004,
+      "u_grasp": 0.2475,
+      "x_pinch": -1.0496,
+      "x_grasp": -0.1751,
+      "activation": 0.4993,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0154,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 21.95,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2591,
+      "u_grasp": 0.4683,
+      "x_pinch": 0.4592,
+      "x_grasp": 1.6163,
+      "activation": 0.6645,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0297,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 21.951,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2591,
+      "u_grasp": 0.4683,
+      "x_pinch": 0.4592,
+      "x_grasp": 1.6163,
+      "activation": 0.6645,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0297,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 21.995,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3722,
+      "u_grasp": 0.4823,
+      "x_pinch": 1.1186,
+      "x_grasp": 1.73,
+      "activation": 0.7379,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0382,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 22.321,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7578,
+      "u_grasp": 0.5156,
+      "x_pinch": 3.3677,
+      "x_grasp": 1.9999,
+      "activation": 0.9216,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0418,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 22.321,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7578,
+      "u_grasp": 0.5156,
+      "x_pinch": 3.3677,
+      "x_grasp": 1.9999,
+      "activation": 0.9216,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0418,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 22.322,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7578,
+      "u_grasp": 0.5156,
+      "x_pinch": 3.3677,
+      "x_grasp": 1.9999,
+      "activation": 0.9216,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0418,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 23.964,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.8126,
+      "u_grasp": 0.434,
+      "x_pinch": 3.6873,
+      "x_grasp": 1.0619,
+      "activation": 0.9174,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0203,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.6063976649183624
+      }
+    },
+    {
+      "timestamp": 23.964,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.8126,
+      "u_grasp": 0.434,
+      "x_pinch": 3.6873,
+      "x_grasp": 1.0619,
+      "activation": 0.9174,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0203,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.6063976649183624
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 24.259,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0814,
+      "u_grasp": 0.1154,
+      "x_pinch": -0.5775,
+      "x_grasp": -0.7531,
+      "activation": 0.4604,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0576,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.42, 1.34, -1.19)"
+    },
+    {
+      "timestamp": 24.26,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0814,
+      "u_grasp": 0.1154,
+      "x_pinch": -0.5775,
+      "x_grasp": -0.7531,
+      "activation": 0.4604,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0576,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1215,
+          "grasp": 0.0733
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 4"
+    },
+    {
+      "timestamp": 26.067,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2383,
+      "u_grasp": 0.2214,
+      "x_pinch": 0.6882,
+      "x_grasp": 0.0043,
+      "activation": 0.3607,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.024,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1268,
+          "grasp": 0.086
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.464251241258694
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 26.297,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4778,
+      "u_grasp": 0.2603,
+      "x_pinch": 2.0428,
+      "x_grasp": 0.2326,
+      "activation": 0.7372,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0336,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1268,
+          "grasp": 0.086
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.58087552419257
+      }
+    },
+    {
+      "timestamp": 26.297,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4778,
+      "u_grasp": 0.2603,
+      "x_pinch": 2.0428,
+      "x_grasp": 0.2326,
+      "activation": 0.7372,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0336,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1268,
+          "grasp": 0.086
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.58087552419257
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 27.821,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7475,
+      "u_grasp": 0.2639,
+      "x_pinch": 3.5681,
+      "x_grasp": 0.1921,
+      "activation": 0.902,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0226,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1268,
+          "grasp": 0.086
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 27.821,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7475,
+      "u_grasp": 0.2639,
+      "x_pinch": 3.5681,
+      "x_grasp": 0.1921,
+      "activation": 0.902,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0226,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1268,
+          "grasp": 0.086
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 28.159,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0589,
+      "u_grasp": 0.0968,
+      "x_pinch": -0.3269,
+      "x_grasp": -0.5502,
+      "activation": 0.3403,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0493,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1268,
+          "grasp": 0.086
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.38, 1.35, -1.19)"
+    },
+    {
+      "timestamp": 28.16,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0589,
+      "u_grasp": 0.0968,
+      "x_pinch": -0.3269,
+      "x_grasp": -0.5502,
+      "activation": 0.3403,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0493,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1268,
+          "grasp": 0.086
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 5"
+    },
+    {
+      "timestamp": 30.165,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.1548,
+      "x_pinch": -0.4451,
+      "x_grasp": -0.1874,
+      "activation": 0.2694,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0026,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 30,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.1015,
+          "grasp": 0.0665
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.7873136101788556
+      },
+      "success": true
+    },
+    {
+      "timestamp": 31.85,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1255,
+      "u_grasp": 0.1867,
+      "x_pinch": 1.1059,
+      "x_grasp": 0.102,
+      "activation": 0.5142,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0116,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0381,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.7412517157262277
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 31.987,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.39,
+      "u_grasp": 0.2149,
+      "x_pinch": 4.1088,
+      "x_grasp": 0.3604,
+      "activation": 0.9315,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0327,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0381,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.4951525547290188
+      }
+    },
+    {
+      "timestamp": 31.987,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.39,
+      "u_grasp": 0.2149,
+      "x_pinch": 4.1088,
+      "x_grasp": 0.3604,
+      "activation": 0.9315,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0327,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0381,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.4951525547290188
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 33.719,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7392,
+      "u_grasp": 0.2499,
+      "x_pinch": 8.0734,
+      "x_grasp": 0.6034,
+      "activation": 0.9948,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0265,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0381,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 33.72,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7392,
+      "u_grasp": 0.2499,
+      "x_pinch": 8.0734,
+      "x_grasp": 0.6034,
+      "activation": 0.9948,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0265,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0381,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 34.187,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0234,
+      "u_grasp": 0.0563,
+      "x_pinch": -0.0532,
+      "x_grasp": -0.9557,
+      "activation": 0.4632,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0399,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0381,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.49, 1.39, -1.19)"
+    },
+    {
+      "timestamp": 34.187,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0234,
+      "u_grasp": 0.0563,
+      "x_pinch": -0.0532,
+      "x_grasp": -0.9557,
+      "activation": 0.4632,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0399,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0381,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 1"
+    },
+    {
+      "timestamp": 36.515,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1004,
+      "u_grasp": 0.2281,
+      "x_pinch": 1.2407,
+      "x_grasp": 0.5757,
+      "activation": 0.589,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0136,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0211,
+          "grasp": 0.0236
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.8963376012897397
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 36.623,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3905,
+      "u_grasp": 0.2542,
+      "x_pinch": 5.3221,
+      "x_grasp": 0.855,
+      "activation": 0.9699,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0365,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0211,
+          "grasp": 0.0236
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.7802721948788918
+      }
+    },
+    {
+      "timestamp": 36.623,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3905,
+      "u_grasp": 0.2542,
+      "x_pinch": 5.3221,
+      "x_grasp": 0.855,
+      "activation": 0.9699,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0365,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0211,
+          "grasp": 0.0236
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.7802721948788918
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 38.158,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7196,
+      "u_grasp": 0.2618,
+      "x_pinch": 9.9504,
+      "x_grasp": 0.736,
+      "activation": 0.9985,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0226,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0211,
+          "grasp": 0.0236
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 38.158,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7196,
+      "u_grasp": 0.2618,
+      "x_pinch": 9.9504,
+      "x_grasp": 0.736,
+      "activation": 0.9985,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0226,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0211,
+          "grasp": 0.0236
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 38.719,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0128,
+      "u_grasp": 0.0331,
+      "x_pinch": 0.0093,
+      "x_grasp": -1.1054,
+      "activation": 0.5125,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.032,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0211,
+          "grasp": 0.0236
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.44, 1.34, -1.19)"
+    },
+    {
+      "timestamp": 38.719,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0128,
+      "u_grasp": 0.0331,
+      "x_pinch": 0.0093,
+      "x_grasp": -1.1054,
+      "activation": 0.5125,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.032,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0211,
+          "grasp": 0.0236
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 2"
+    },
+    {
+      "timestamp": 40.587,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0832,
+      "u_grasp": 0.259,
+      "x_pinch": 1.0079,
+      "x_grasp": 0.8758,
+      "activation": 0.5802,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0121,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0203,
+          "grasp": 0.0288
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.4475290362851068
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 40.755,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5243,
+      "u_grasp": 0.2813,
+      "x_pinch": 7.2793,
+      "x_grasp": 1.1285,
+      "activation": 0.9917,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0422,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0203,
+          "grasp": 0.0288
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.3748969625328518
+      }
+    },
+    {
+      "timestamp": 40.756,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5243,
+      "u_grasp": 0.2813,
+      "x_pinch": 7.2793,
+      "x_grasp": 1.1285,
+      "activation": 0.9917,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0422,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0203,
+          "grasp": 0.0288
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.3748969625328518
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 42.081,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7932,
+      "u_grasp": 0.2636,
+      "x_pinch": 11.1028,
+      "x_grasp": 0.7097,
+      "activation": 0.9993,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0196,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0203,
+          "grasp": 0.0288
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.00990643195126
+      }
+    },
+    {
+      "timestamp": 42.081,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7932,
+      "u_grasp": 0.2636,
+      "x_pinch": 11.1028,
+      "x_grasp": 0.7097,
+      "activation": 0.9993,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0196,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0203,
+          "grasp": 0.0288
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.00990643195126
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 42.682,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0141,
+      "u_grasp": 0.0088,
+      "x_pinch": 0.0267,
+      "x_grasp": -1.2742,
+      "activation": 0.5633,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0345,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0203,
+          "grasp": 0.0288
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.44, 1.51, -1.19)"
+    },
+    {
+      "timestamp": 42.683,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0141,
+      "u_grasp": 0.0088,
+      "x_pinch": 0.0267,
+      "x_grasp": -1.2742,
+      "activation": 0.5633,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0345,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0203,
+          "grasp": 0.0288
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 3"
+    },
+    {
+      "timestamp": 44.919,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1523,
+      "u_grasp": 0.2307,
+      "x_pinch": 2.0418,
+      "x_grasp": 0.5428,
+      "activation": 0.7467,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0183,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0161,
+          "grasp": 0.0273
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.411970980349676
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 45.053,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3709,
+      "u_grasp": 0.2499,
+      "x_pinch": 5.1652,
+      "x_grasp": 0.7638,
+      "activation": 0.9664,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0357,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0161,
+          "grasp": 0.0273
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.3405134831019287
+      }
+    },
+    {
+      "timestamp": 45.053,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3709,
+      "u_grasp": 0.2499,
+      "x_pinch": 5.1652,
+      "x_grasp": 0.7638,
+      "activation": 0.9664,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0357,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0161,
+          "grasp": 0.0273
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.3405134831019287
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 46.617,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7319,
+      "u_grasp": 0.2719,
+      "x_pinch": 10.3217,
+      "x_grasp": 0.7668,
+      "activation": 0.9988,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0165,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0161,
+          "grasp": 0.0273
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.8408199213911742
+      }
+    },
+    {
+      "timestamp": 46.618,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7319,
+      "u_grasp": 0.2719,
+      "x_pinch": 10.3217,
+      "x_grasp": 0.7668,
+      "activation": 0.9988,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0165,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0161,
+          "grasp": 0.0273
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.8408199213911742
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 47.218,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.013,
+      "u_grasp": 0.0231,
+      "x_pinch": 0.0524,
+      "x_grasp": -1.2281,
+      "activation": 0.5502,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0314,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0161,
+          "grasp": 0.0273
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.42, 1.32, -1.19)"
+    },
+    {
+      "timestamp": 47.219,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.013,
+      "u_grasp": 0.0231,
+      "x_pinch": 0.0524,
+      "x_grasp": -1.2281,
+      "activation": 0.5502,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0314,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0161,
+          "grasp": 0.0273
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 4"
+    },
+    {
+      "timestamp": 48.681,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0489,
+      "u_grasp": 0.2145,
+      "x_pinch": 0.6103,
+      "x_grasp": 0.5461,
+      "activation": 0.4127,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0138,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0115,
+          "grasp": 0.0361
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.1754526291021308
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 48.819,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3613,
+      "u_grasp": 0.2567,
+      "x_pinch": 5.0735,
+      "x_grasp": 0.9571,
+      "activation": 0.9651,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0359,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0115,
+          "grasp": 0.0361
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.262375035343012
+      }
+    },
+    {
+      "timestamp": 48.82,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3613,
+      "u_grasp": 0.2567,
+      "x_pinch": 5.0735,
+      "x_grasp": 0.9571,
+      "activation": 0.9651,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0359,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0115,
+          "grasp": 0.0361
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.262375035343012
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 50.583,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5665,
+      "u_grasp": 0.2554,
+      "x_pinch": 8.0039,
+      "x_grasp": 0.6602,
+      "activation": 0.9946,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0237,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0115,
+          "grasp": 0.0361
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 50.584,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5665,
+      "u_grasp": 0.2554,
+      "x_pinch": 8.0039,
+      "x_grasp": 0.6602,
+      "activation": 0.9946,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0237,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0115,
+          "grasp": 0.0361
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 51.149,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0135,
+      "u_grasp": 0.0074,
+      "x_pinch": 0.1036,
+      "x_grasp": -1.0807,
+      "activation": 0.5062,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.03,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0115,
+          "grasp": 0.0361
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.36, 1.47, -1.19)"
+    },
+    {
+      "timestamp": 51.149,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0135,
+      "u_grasp": 0.0074,
+      "x_pinch": 0.1036,
+      "x_grasp": -1.0807,
+      "activation": 0.5062,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.03,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0115,
+          "grasp": 0.0361
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 5"
+    },
+    {
+      "timestamp": 53.154,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.2044,
+      "x_pinch": -0.0427,
+      "x_grasp": 0.4122,
+      "activation": 0.2362,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0038,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 36,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0062,
+          "grasp": 0.0285
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.3481688849164937
+      },
+      "success": true
+    },
+    {
+      "timestamp": 54.192,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0506,
+      "u_grasp": 0.2766,
+      "x_pinch": 0.6354,
+      "x_grasp": 0.6782,
+      "activation": 0.4534,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0081,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 56,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.049116259196573
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 54.416,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3761,
+      "u_grasp": 0.3018,
+      "x_pinch": 5.2863,
+      "x_grasp": 0.8776,
+      "activation": 0.9693,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0333,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.171733797334557
+      }
+    },
+    {
+      "timestamp": 54.417,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3761,
+      "u_grasp": 0.3018,
+      "x_pinch": 5.2863,
+      "x_grasp": 0.8776,
+      "activation": 0.9693,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0333,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.171733797334557
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 56.21,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5328,
+      "u_grasp": 0.25,
+      "x_pinch": 7.5248,
+      "x_grasp": 0.285,
+      "activation": 0.9925,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0275,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 56.21,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5328,
+      "u_grasp": 0.25,
+      "x_pinch": 7.5248,
+      "x_grasp": 0.285,
+      "activation": 0.9925,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0275,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 56.878,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0127,
+      "u_grasp": 0.0136,
+      "x_pinch": 0.0938,
+      "x_grasp": -1.1427,
+      "activation": 0.5254,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0296,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.42, 1.52, -1.19)"
+    },
+    {
+      "timestamp": 56.878,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0127,
+      "u_grasp": 0.0136,
+      "x_pinch": 0.0938,
+      "x_grasp": -1.1427,
+      "activation": 0.5254,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0296,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 1"
+    },
+    {
+      "timestamp": 58.286,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.2175,
+      "x_pinch": -0.0869,
+      "x_grasp": 0.1469,
+      "activation": 0.105,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0103,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 58.409,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.2311,
+      "x_pinch": -0.087,
+      "x_grasp": 0.2835,
+      "activation": 0.1753,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0087,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 3,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 58.501,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.2336,
+      "x_pinch": -0.087,
+      "x_grasp": 0.3083,
+      "activation": 0.188,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0075,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 5,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 58.551,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.2277,
+      "x_pinch": -0.087,
+      "x_grasp": 0.2487,
+      "activation": 0.1574,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0074,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 6,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.05
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 59.071,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0974,
+      "u_grasp": 0.2414,
+      "x_pinch": 1.3075,
+      "x_grasp": 0.3121,
+      "activation": 0.5826,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0134,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0074,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.2621629575859328
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 59.203,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3825,
+      "u_grasp": 0.2679,
+      "x_pinch": 5.3799,
+      "x_grasp": 0.5635,
+      "activation": 0.9703,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0354,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0074,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.1756000501140287
+      }
+    },
+    {
+      "timestamp": 59.203,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3825,
+      "u_grasp": 0.2679,
+      "x_pinch": 5.3799,
+      "x_grasp": 0.5635,
+      "activation": 0.9703,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0354,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0074,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.1756000501140287
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 60.703,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7064,
+      "u_grasp": 0.2557,
+      "x_pinch": 10.0073,
+      "x_grasp": 0.3081,
+      "activation": 0.9985,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0229,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0074,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 60.703,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7064,
+      "u_grasp": 0.2557,
+      "x_pinch": 10.0073,
+      "x_grasp": 0.3081,
+      "activation": 0.9985,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0229,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0074,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 61.313,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_RELEASED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0138,
+      "u_grasp": 0.0555,
+      "x_pinch": 0.1129,
+      "x_grasp": -0.9465,
+      "activation": 0.4619,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0322,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0074,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball released at (0.43, 1.62, -1.19)"
+    },
+    {
+      "timestamp": 61.314,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TARGET_REACHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0138,
+      "u_grasp": 0.0555,
+      "x_pinch": 0.1129,
+      "x_grasp": -0.9465,
+      "activation": 0.4619,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0322,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0074,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Ball successfully dropped in basket. Total: 2"
+    },
+    {
+      "timestamp": 63.273,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "OBJECT_PICKED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0963,
+      "u_grasp": 0.2263,
+      "x_pinch": 1.3271,
+      "x_grasp": 0.346,
+      "activation": 0.5899,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0139,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.2688646349314023
+      },
+      "message": "Ball picked up successfully."
+    },
+    {
+      "timestamp": 63.413,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4616,
+      "u_grasp": 0.2494,
+      "x_pinch": 6.5458,
+      "x_grasp": 0.5603,
+      "activation": 0.986,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0429,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.4491884092269354
+      }
+    },
+    {
+      "timestamp": 63.414,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4616,
+      "u_grasp": 0.2494,
+      "x_pinch": 6.5458,
+      "x_grasp": 0.5603,
+      "activation": 0.986,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0429,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.4491884092269354
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 64.944,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6388,
+      "u_grasp": 0.2431,
+      "x_pinch": 9.0773,
+      "x_grasp": 0.3653,
+      "activation": 0.9973,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0234,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 64.945,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6388,
+      "u_grasp": 0.2431,
+      "x_pinch": 9.0773,
+      "x_grasp": 0.3653,
+      "activation": 0.9973,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0234,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 65.508,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "TASK_FAILED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0114,
+      "u_grasp": 0.0053,
+      "x_pinch": 0.1144,
+      "x_grasp": -1.3677,
+      "activation": 0.5902,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0297,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "success": false
+    },
+    {
+      "timestamp": 65.52,
+      "sessionId": "S_1c8df791-9187-488a-b8ce-8eeba9aae438",
+      "taskId": "BALLDROP",
+      "event": "SESSION_FINISHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0114,
+      "u_grasp": 0.0053,
+      "x_pinch": 0.1144,
+      "x_grasp": -1.3677,
+      "activation": 0.5902,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0297,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "BALLDROP",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Validation session finished."
+    }
+  ],
+  "researchBuffer": []
+}
