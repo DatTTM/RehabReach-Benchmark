@@ -1,0 +1,2894 @@
+{
+  "loggerVersion": "1.2.0",
+  "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+  "startTime": "2026-08-05T10:14:53.136Z",
+  "endTime": "2026-08-05T10:15:58.381Z",
+  "metadata": {
+    "loggerVersion": "1.2.0",
+    "appVersion": "1.0.0",
+    "algorithmVersion": "1.0.0",
+    "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "device": "Desktop",
+    "mediaPipeVersion": "0.10.0",
+    "cameraResolution": "640x480",
+    "sourceFPS": 30
+  },
+  "summaryStatistics": {
+    "mean_u_pinch": 0.255,
+    "max_u_pinch": 0.4857,
+    "mean_u_grasp": 0.2698,
+    "max_u_grasp": 0.5696,
+    "total_pinch_intent_duration_sec": 0,
+    "total_grasp_intent_duration_sec": 10.08,
+    "number_of_accepted_actions": 0,
+    "number_of_rejected_actions": 0,
+    "execution_success_rate_percent": 100,
+    "tracking_uptime_percent": 100
+  },
+  "stats": {
+    "trackingLostEvents": 0,
+    "trackingRecoveredEvents": 0,
+    "activeFrames": 5942,
+    "trackedFrames": 5942,
+    "pinchCount": 0,
+    "graspCount": 8,
+    "rapidTransitions": 22,
+    "completedGames": 1,
+    "totalGames": 1,
+    "successRateTotal": 100,
+    "successRateCount": 1,
+    "measurements": [],
+    "trackingUptimePercent": 100
+  },
+  "clinicalStats": {
+    "clinicalPinchCount": 0,
+    "clinicalGraspCount": 8,
+    "clinicalGestureDurations": {
+      "pinch": [],
+      "grasp": [
+        0.999,
+        0.677,
+        0.729,
+        1.93,
+        1.229,
+        2.528,
+        1.778
+      ]
+    },
+    "clinicalAvgPinchDuration": 0,
+    "clinicalAvgGraspDuration": 1.4100000000000001
+  },
+  "eventHistory": [
+    {
+      "timestamp": 0,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "SESSION_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0,
+      "x_pinch": 0,
+      "x_grasp": 0,
+      "activation": 0,
+      "intent": "neutral",
+      "eadmr": null,
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.75,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Validation session initialized."
+    },
+    {
+      "timestamp": 5.318,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "TRACKING_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2938,
+      "u_grasp": 0.1443,
+      "x_pinch": -0.1852,
+      "x_grasp": -0.2183,
+      "activation": 0.1698,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0008,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 72,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0337,
+          "grasp": 0.1081
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Initial tracking acquired. Confidence: 0.99"
+    },
+    {
+      "timestamp": 5.319,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2938,
+      "u_grasp": 0.1443,
+      "x_pinch": -0.1852,
+      "x_grasp": -0.2183,
+      "activation": 0.1698,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0008,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 72,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0337,
+          "grasp": 0.1081
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 11.343,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3293,
+      "u_grasp": 0.2194,
+      "x_pinch": 0.2406,
+      "x_grasp": 0.169,
+      "activation": 0.174,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0041,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 199,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0109,
+          "grasp": 0.0158
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.624410765256434
+      },
+      "success": true
+    },
+    {
+      "timestamp": 12.131,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2994,
+      "u_grasp": 0.3321,
+      "x_pinch": -0.285,
+      "x_grasp": 1.1339,
+      "activation": 0.5323,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0082,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 218,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0137,
+          "grasp": 0.0408
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 12.322,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2729,
+      "u_grasp": 0.3395,
+      "x_pinch": -0.6236,
+      "x_grasp": 0.8498,
+      "activation": 0.496,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0101,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0161,
+          "grasp": 0.0518
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.23781357867268
+      }
+    },
+    {
+      "timestamp": 14.173,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1202,
+      "u_grasp": 0.226,
+      "x_pinch": -2.3443,
+      "x_grasp": -0.0442,
+      "activation": 0.7822,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0166,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0292,
+          "grasp": 0.0562
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 14.252,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0685,
+      "u_grasp": 0.3227,
+      "x_pinch": -2.9967,
+      "x_grasp": 0.8666,
+      "activation": 0.8684,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.024,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0292,
+          "grasp": 0.0562
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 14.253,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0685,
+      "u_grasp": 0.3227,
+      "x_pinch": -2.9967,
+      "x_grasp": 0.8666,
+      "activation": 0.8684,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.024,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0292,
+          "grasp": 0.0562
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 15.276,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3372,
+      "u_grasp": 0.4423,
+      "x_pinch": 0.395,
+      "x_grasp": 1.9568,
+      "activation": 0.7268,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0202,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0292,
+          "grasp": 0.0562
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8500130119055322
+      }
+    },
+    {
+      "timestamp": 15.276,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3372,
+      "u_grasp": 0.4423,
+      "x_pinch": 0.395,
+      "x_grasp": 1.9568,
+      "activation": 0.7268,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0202,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0292,
+          "grasp": 0.0562
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8500130119055322
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 16.974,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3336,
+      "u_grasp": 0.2613,
+      "x_pinch": 0.3495,
+      "x_grasp": 0.2886,
+      "activation": 0.2552,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0179,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0292,
+          "grasp": 0.0562
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 17.022,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3903,
+      "u_grasp": 0.2682,
+      "x_pinch": 1.0652,
+      "x_grasp": 0.2845,
+      "activation": 0.5116,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0218,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0292,
+          "grasp": 0.0562
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.5416292177239774
+      }
+    },
+    {
+      "timestamp": 19.471,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3023,
+      "u_grasp": 0.2274,
+      "x_pinch": 0.0017,
+      "x_grasp": -0.0212,
+      "activation": 0.0138,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0056,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 23,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0212,
+          "grasp": 0.0343
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.8874497920257354
+      },
+      "success": true
+    },
+    {
+      "timestamp": 22.102,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1719,
+      "u_grasp": 0.2219,
+      "x_pinch": -0.9246,
+      "x_grasp": 0.6549,
+      "activation": 0.5212,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0151,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0333,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 22.505,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2274,
+      "u_grasp": 0.4483,
+      "x_pinch": -0.2587,
+      "x_grasp": 3.0035,
+      "activation": 0.8591,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0246,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0333,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 22.505,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2274,
+      "u_grasp": 0.4483,
+      "x_pinch": -0.2587,
+      "x_grasp": 3.0035,
+      "activation": 0.8591,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0246,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0333,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 23.203,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.386,
+      "u_grasp": 0.434,
+      "x_pinch": 1.6447,
+      "x_grasp": 2.8545,
+      "activation": 0.8825,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0147,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0333,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 23.204,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.386,
+      "u_grasp": 0.434,
+      "x_pinch": 1.6447,
+      "x_grasp": 2.8545,
+      "activation": 0.8825,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0147,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0333,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 23.673,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3764,
+      "u_grasp": 0.3993,
+      "x_pinch": 1.529,
+      "x_grasp": 2.4952,
+      "activation": 0.8508,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0091,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 4,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0333,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 23.673,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3764,
+      "u_grasp": 0.3993,
+      "x_pinch": 1.529,
+      "x_grasp": 2.4952,
+      "activation": 0.8508,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0091,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 4,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0333,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 24.424,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0847,
+      "u_grasp": 0.3501,
+      "x_pinch": -1.9715,
+      "x_grasp": 1.512,
+      "activation": 0.8011,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0272,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0333,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.800600226227374
+      }
+    },
+    {
+      "timestamp": 24.424,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0847,
+      "u_grasp": 0.3501,
+      "x_pinch": -1.9715,
+      "x_grasp": 1.512,
+      "activation": 0.8011,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0272,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0333,
+          "grasp": 0.0464
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.800600226227374
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 26.452,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2121,
+      "u_grasp": 0.2325,
+      "x_pinch": -0.3386,
+      "x_grasp": 0.8137,
+      "activation": 0.4361,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0152,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0378,
+          "grasp": 0.0457
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8461751918316274
+      }
+    },
+    {
+      "timestamp": 26.654,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2414,
+      "u_grasp": 0.3536,
+      "x_pinch": -0.0047,
+      "x_grasp": 2.0811,
+      "activation": 0.7415,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0211,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0378,
+          "grasp": 0.0457
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8153102158198962
+      }
+    },
+    {
+      "timestamp": 26.751,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2681,
+      "u_grasp": 0.3689,
+      "x_pinch": 0.2999,
+      "x_grasp": 2.2526,
+      "activation": 0.7717,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.02,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0378,
+          "grasp": 0.0457
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 26.752,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2681,
+      "u_grasp": 0.3689,
+      "x_pinch": 0.2999,
+      "x_grasp": 2.2526,
+      "activation": 0.7717,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.02,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0378,
+          "grasp": 0.0457
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 26.8,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2826,
+      "u_grasp": 0.3739,
+      "x_pinch": 0.4652,
+      "x_grasp": 2.2966,
+      "activation": 0.782,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0195,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0378,
+          "grasp": 0.0457
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8099060573140944
+      }
+    },
+    {
+      "timestamp": 26.801,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2826,
+      "u_grasp": 0.3739,
+      "x_pinch": 0.4652,
+      "x_grasp": 2.2966,
+      "activation": 0.782,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0195,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0378,
+          "grasp": 0.0457
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8099060573140944
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 28.521,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3316,
+      "u_grasp": 0.3666,
+      "x_pinch": 0.4168,
+      "x_grasp": 0.8892,
+      "activation": 0.4718,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0061,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 26,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0655,
+          "grasp": 0.107
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 28.571,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3209,
+      "u_grasp": 0.369,
+      "x_pinch": 0.319,
+      "x_grasp": 0.8309,
+      "activation": 0.4393,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0066,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 27,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.064,
+          "grasp": 0.1086
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9261107940841156
+      }
+    },
+    {
+      "timestamp": 31.412,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3576,
+      "u_grasp": 0.3318,
+      "x_pinch": 0.8418,
+      "x_grasp": 0.6701,
+      "activation": 0.5031,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0075,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 8,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0517,
+          "grasp": 0.083
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.393000489273439
+      },
+      "success": true
+    },
+    {
+      "timestamp": 32.151,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3637,
+      "u_grasp": 0.4106,
+      "x_pinch": 0.5549,
+      "x_grasp": 0.919,
+      "activation": 0.5023,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0072,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 24,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.063,
+          "grasp": 0.102
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 32.202,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3649,
+      "u_grasp": 0.4128,
+      "x_pinch": 0.5486,
+      "x_grasp": 0.8321,
+      "activation": 0.4768,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0067,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 25,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0629,
+          "grasp": 0.1038
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.011435873200737
+      }
+    },
+    {
+      "timestamp": 32.653,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3281,
+      "u_grasp": 0.3762,
+      "x_pinch": 0.1057,
+      "x_grasp": 0.5038,
+      "activation": 0.2844,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0085,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 34,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0572,
+          "grasp": 0.0991
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 32.903,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2497,
+      "u_grasp": 0.3807,
+      "x_pinch": -0.6478,
+      "x_grasp": 0.5123,
+      "activation": 0.4154,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.012,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0527,
+          "grasp": 0.0965
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 33.002,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2167,
+      "u_grasp": 0.3512,
+      "x_pinch": -0.9695,
+      "x_grasp": 0.2055,
+      "activation": 0.4749,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0141,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0527,
+          "grasp": 0.0965
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.6670891887067234
+      }
+    },
+    {
+      "timestamp": 34.704,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0457,
+      "u_grasp": 0.2325,
+      "x_pinch": -2.4305,
+      "x_grasp": -0.4502,
+      "activation": 0.7995,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0185,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.059,
+          "grasp": 0.1004
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 34.751,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0342,
+      "u_grasp": 0.2852,
+      "x_pinch": -2.5352,
+      "x_grasp": -0.1002,
+      "activation": 0.8078,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0221,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.059,
+          "grasp": 0.1004
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 34.751,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0342,
+      "u_grasp": 0.2852,
+      "x_pinch": -2.5352,
+      "x_grasp": -0.1002,
+      "activation": 0.8078,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0221,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.059,
+          "grasp": 0.1004
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 36.705,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0269,
+      "u_grasp": 0.3599,
+      "x_pinch": -2.6022,
+      "x_grasp": 0.2911,
+      "activation": 0.8177,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0323,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.059,
+          "grasp": 0.1004
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.994477034599252
+      }
+    },
+    {
+      "timestamp": 36.706,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0269,
+      "u_grasp": 0.3599,
+      "x_pinch": -2.6022,
+      "x_grasp": 0.2911,
+      "activation": 0.8177,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0323,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.059,
+          "grasp": 0.1004
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.994477034599252
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 39.299,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3294,
+      "u_grasp": 0.3244,
+      "x_pinch": 0.1718,
+      "x_grasp": 0.141,
+      "activation": 0.1345,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0077,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 4,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.059,
+          "grasp": 0.1004
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.2109638405590055
+      },
+      "success": true
+    },
+    {
+      "timestamp": 40.652,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.28,
+      "u_grasp": 0.3539,
+      "x_pinch": -0.4102,
+      "x_grasp": 0.2894,
+      "activation": 0.2784,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0056,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 32,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0289,
+          "grasp": 0.0591
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8439680330084838
+      }
+    },
+    {
+      "timestamp": 40.805,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2309,
+      "u_grasp": 0.3523,
+      "x_pinch": -0.9205,
+      "x_grasp": 0.2585,
+      "activation": 0.4628,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0087,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 35,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0328,
+          "grasp": 0.0548
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8690423357034318
+      }
+    },
+    {
+      "timestamp": 40.901,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.175,
+      "u_grasp": 0.3341,
+      "x_pinch": -1.5067,
+      "x_grasp": 0.0687,
+      "activation": 0.6248,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0131,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0358,
+          "grasp": 0.0536
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.4539158901565505
+      }
+    },
+    {
+      "timestamp": 42.852,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0102,
+      "u_grasp": 0.1208,
+      "x_pinch": -1.9168,
+      "x_grasp": -1.1547,
+      "activation": 0.7665,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0132,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0836,
+          "grasp": 0.0953
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 42.952,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0057,
+      "u_grasp": 0.28,
+      "x_pinch": -1.9502,
+      "x_grasp": -0.0591,
+      "activation": 0.7187,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.026,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0836,
+          "grasp": 0.0953
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 42.953,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0057,
+      "u_grasp": 0.28,
+      "x_pinch": -1.9502,
+      "x_grasp": -0.0591,
+      "activation": 0.7187,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.026,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0836,
+          "grasp": 0.0953
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 44.204,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2515,
+      "u_grasp": 0.419,
+      "x_pinch": -0.1099,
+      "x_grasp": 0.7982,
+      "activation": 0.4077,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0207,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0836,
+          "grasp": 0.0953
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.158855795092967
+      }
+    },
+    {
+      "timestamp": 44.205,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2515,
+      "u_grasp": 0.419,
+      "x_pinch": -0.1099,
+      "x_grasp": 0.7982,
+      "activation": 0.4077,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0207,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0836,
+          "grasp": 0.0953
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.158855795092967
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 45.501,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3399,
+      "u_grasp": 0.3191,
+      "x_pinch": 0.5521,
+      "x_grasp": 0.2104,
+      "activation": 0.3189,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.023,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0836,
+          "grasp": 0.0953
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 45.551,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3471,
+      "u_grasp": 0.3287,
+      "x_pinch": 0.6057,
+      "x_grasp": 0.2759,
+      "activation": 0.3512,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0219,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0836,
+          "grasp": 0.0953
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 46.163,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.342,
+      "u_grasp": 0.2568,
+      "x_pinch": 0.5676,
+      "x_grasp": -0.1322,
+      "activation": 0.3153,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.009,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 2,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0836,
+          "grasp": 0.0953
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "success": true
+    },
+    {
+      "timestamp": 50.653,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4126,
+      "u_grasp": 0.3433,
+      "x_pinch": 1.4084,
+      "x_grasp": 1.0487,
+      "activation": 0.6806,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0146,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0148,
+          "grasp": 0.0196
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 50.703,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3912,
+      "u_grasp": 0.3492,
+      "x_pinch": 1.1017,
+      "x_grasp": 1.1274,
+      "activation": 0.6411,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0154,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0148,
+          "grasp": 0.0196
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 52.904,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2036,
+      "u_grasp": 0.2715,
+      "x_pinch": -1.1684,
+      "x_grasp": 0.2759,
+      "activation": 0.5418,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0143,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0319,
+          "grasp": 0.0405
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8403498181650917
+      }
+    },
+    {
+      "timestamp": 53.103,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.208,
+      "u_grasp": 0.3832,
+      "x_pinch": -1.1145,
+      "x_grasp": 1.514,
+      "activation": 0.7054,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0193,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0319,
+          "grasp": 0.0405
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 53.104,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.208,
+      "u_grasp": 0.3832,
+      "x_pinch": -1.1145,
+      "x_grasp": 1.514,
+      "activation": 0.7054,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0193,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0319,
+          "grasp": 0.0405
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 55.654,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0667,
+      "u_grasp": 0.3828,
+      "x_pinch": -2.8384,
+      "x_grasp": 1.4051,
+      "activation": 0.8724,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0289,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0319,
+          "grasp": 0.0405
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.0066032481402174
+      }
+    },
+    {
+      "timestamp": 55.654,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0667,
+      "u_grasp": 0.3828,
+      "x_pinch": -2.8384,
+      "x_grasp": 1.4051,
+      "activation": 0.8724,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0289,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0319,
+          "grasp": 0.0405
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.0066032481402174
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 58.652,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2126,
+      "u_grasp": 0.255,
+      "x_pinch": -0.2617,
+      "x_grasp": 0.5361,
+      "activation": 0.3214,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0137,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.063,
+          "grasp": 0.062
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 58.702,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2247,
+      "u_grasp": 0.2871,
+      "x_pinch": -0.1552,
+      "x_grasp": 0.8233,
+      "activation": 0.4199,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0158,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.063,
+          "grasp": 0.062
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 58.753,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2482,
+      "u_grasp": 0.2989,
+      "x_pinch": 0.0529,
+      "x_grasp": 0.8306,
+      "activation": 0.4178,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0168,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.063,
+          "grasp": 0.062
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.1382092893679907
+      }
+    },
+    {
+      "timestamp": 58.963,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3055,
+      "u_grasp": 0.3209,
+      "x_pinch": 0.5601,
+      "x_grasp": 0.897,
+      "activation": 0.4971,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0176,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.063,
+          "grasp": 0.062
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.584773348399873
+      },
+      "success": true
+    },
+    {
+      "timestamp": 61.602,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3053,
+      "u_grasp": 0.3516,
+      "x_pinch": 0.1016,
+      "x_grasp": 0.6588,
+      "activation": 0.3516,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0071,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 47,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0471,
+          "grasp": 0.0711
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 61.713,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2823,
+      "u_grasp": 0.3804,
+      "x_pinch": -0.1367,
+      "x_grasp": 0.8004,
+      "activation": 0.4101,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0084,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 50,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0413,
+          "grasp": 0.0746
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 61.75,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2726,
+      "u_grasp": 0.3718,
+      "x_pinch": -0.2382,
+      "x_grasp": 0.6879,
+      "activation": 0.377,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0089,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 51,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0403,
+          "grasp": 0.0753
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8708443669367254
+      }
+    },
+    {
+      "timestamp": 61.802,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.264,
+      "u_grasp": 0.3592,
+      "x_pinch": -0.3261,
+      "x_grasp": 0.544,
+      "activation": 0.3379,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0095,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 52,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0397,
+          "grasp": 0.0752
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.0242915394764114
+      }
+    },
+    {
+      "timestamp": 62.752,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2548,
+      "u_grasp": 0.2482,
+      "x_pinch": -0.4288,
+      "x_grasp": -0.2919,
+      "activation": 0.2862,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.017,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0397,
+          "grasp": 0.0752
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.868225986947195
+      }
+    },
+    {
+      "timestamp": 62.852,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2216,
+      "u_grasp": 0.3531,
+      "x_pinch": -0.7986,
+      "x_grasp": 0.5385,
+      "activation": 0.4653,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0244,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0397,
+          "grasp": 0.0752
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 62.852,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2216,
+      "u_grasp": 0.3531,
+      "x_pinch": -0.7986,
+      "x_grasp": 0.5385,
+      "activation": 0.4653,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0244,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0397,
+          "grasp": 0.0752
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 64.654,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.092,
+      "u_grasp": 0.3682,
+      "x_pinch": -2.2425,
+      "x_grasp": 0.5316,
+      "activation": 0.7764,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0266,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0397,
+          "grasp": 0.0752
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.534460294592136
+      }
+    },
+    {
+      "timestamp": 64.655,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.092,
+      "u_grasp": 0.3682,
+      "x_pinch": -2.2425,
+      "x_grasp": 0.5316,
+      "activation": 0.7764,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0266,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0397,
+          "grasp": 0.0752
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.534460294592136
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 65.23,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "TASK_FAILED",
+      "hand": "RIGHT",
+      "u_pinch": 0.164,
+      "u_grasp": 0.0955,
+      "x_pinch": -1.4397,
+      "x_grasp": -0.917,
+      "activation": 0.6703,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.03,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0397,
+          "grasp": 0.0752
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "success": false
+    },
+    {
+      "timestamp": 65.243,
+      "sessionId": "S_ec7fa642-3fdb-45d5-85a9-f931778b9b18",
+      "taskId": "WIPE",
+      "event": "SESSION_FINISHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.164,
+      "u_grasp": 0.0955,
+      "x_pinch": -1.4397,
+      "x_grasp": -0.917,
+      "activation": 0.6703,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.03,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0397,
+          "grasp": 0.0752
+        }
+      },
+      "context": {
+        "game": "WIPE",
+        "expectedGestures": [
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Validation session finished."
+    }
+  ],
+  "researchBuffer": []
+}
