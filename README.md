@@ -14,42 +14,36 @@ The dataset includes:
 • Figures used in the manuscript
 
 **Benchmark Protocol**
-Hardware
 
+Hardware
 - MacBook Air M1
 - Mac mini M4
 - Ryzen ...
 
 Browser
-
 Chrome ...
 
 Camera
-
 720p
 30 fps
 
 Protocol
 
 4 tasks
-
 - Table Wipe
 - Target
 - Ball Drop
 - Fish Hunt
 
 Duration
-
 1 minute / task
 
 Warm-up
-
 5 s excluded
 
 Metrics
-
-FPS
-Latency
-Inference
-Tracking
-Heap
+- FPS
+- Latency
+- Inference
+- Tracking
+- Heap
