@@ -20,9 +20,9 @@ The repository includes:
 
 ### Hardware
 
-- Apple MacBook Air M1
+- Apple MacBook Pro M1 
 - Apple Mac mini M4
-- Windows laptop (AMD Ryzen)
+- Windows laptop (MD Ryzen 7 8840HS w/ Radeon 780M Graphics)
 
 ### Software
 
