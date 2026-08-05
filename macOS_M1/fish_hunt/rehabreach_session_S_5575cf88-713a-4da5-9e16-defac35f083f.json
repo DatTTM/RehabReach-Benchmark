@@ -1,0 +1,6396 @@
+{
+  "loggerVersion": "1.2.0",
+  "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+  "startTime": "2026-08-05T03:14:20.838Z",
+  "endTime": "2026-08-05T03:15:26.489Z",
+  "metadata": {
+    "loggerVersion": "1.2.0",
+    "appVersion": "1.0.0",
+    "algorithmVersion": "1.0.0",
+    "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "device": "Desktop",
+    "mediaPipeVersion": "0.10.0",
+    "cameraResolution": "640x480",
+    "sourceFPS": 30
+  },
+  "summaryStatistics": {
+    "mean_u_pinch": 0.276,
+    "max_u_pinch": 0.9992,
+    "mean_u_grasp": 0.3614,
+    "max_u_grasp": 0.7099,
+    "total_pinch_intent_duration_sec": 7.18,
+    "total_grasp_intent_duration_sec": 16.13,
+    "number_of_accepted_actions": 0,
+    "number_of_rejected_actions": 0,
+    "execution_success_rate_percent": 100,
+    "tracking_uptime_percent": 100
+  },
+  "stats": {
+    "trackingLostEvents": 0,
+    "trackingRecoveredEvents": 0,
+    "activeFrames": 3581,
+    "trackedFrames": 3581,
+    "pinchCount": 11,
+    "graspCount": 24,
+    "rapidTransitions": 34,
+    "completedGames": 1,
+    "totalGames": 1,
+    "successRateTotal": 100,
+    "successRateCount": 1,
+    "measurements": [],
+    "trackingUptimePercent": 100
+  },
+  "clinicalStats": {
+    "clinicalPinchCount": 11,
+    "clinicalGraspCount": 20,
+    "clinicalGestureDurations": {
+      "pinch": [
+        0.337,
+        0.588,
+        0.302,
+        0.634,
+        0.401,
+        0.416,
+        0.321,
+        0.602,
+        0.301,
+        0.27,
+        2.668
+      ],
+      "grasp": [
+        0.584,
+        0.835,
+        1.036,
+        1.372,
+        0.673,
+        1.671,
+        0.398,
+        0.503,
+        0.3,
+        1.501,
+        0.867,
+        0.277,
+        0.633,
+        1.2,
+        0.068,
+        0.939,
+        0.479,
+        2.269
+      ]
+    },
+    "clinicalAvgPinchDuration": 0.6218181818181819,
+    "clinicalAvgGraspDuration": 0.8669444444444443
+  },
+  "eventHistory": [
+    {
+      "timestamp": 0,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "SESSION_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0114,
+      "u_grasp": 0.0053,
+      "x_pinch": 0.1144,
+      "x_grasp": -1.3677,
+      "activation": 0.5902,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0297,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.16,
+        "pinchRelease": 0.754,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Validation session initialized."
+    },
+    {
+      "timestamp": 5.693,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "TRACKING_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4124,
+      "u_grasp": 0.2397,
+      "x_pinch": 5.8434,
+      "x_grasp": 0.4337,
+      "activation": 0.9778,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0093,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 1,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.749270563118455
+      },
+      "message": "Initial tracking acquired. Confidence: 0.98"
+    },
+    {
+      "timestamp": 5.694,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4124,
+      "u_grasp": 0.2397,
+      "x_pinch": 5.8434,
+      "x_grasp": 0.4337,
+      "activation": 0.9778,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0093,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 1,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0329
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.749270563118455
+      }
+    },
+    {
+      "timestamp": 6.736,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3616,
+      "u_grasp": 0.2942,
+      "x_pinch": 1.1997,
+      "x_grasp": 0.8786,
+      "activation": 0.6196,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0141,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 6.769,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4131,
+      "u_grasp": 0.3443,
+      "x_pinch": 1.4624,
+      "x_grasp": 1.4264,
+      "activation": 0.735,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0199,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 6.77,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4131,
+      "u_grasp": 0.3443,
+      "x_pinch": 1.4624,
+      "x_grasp": 1.4264,
+      "activation": 0.735,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0199,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 7.138,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.588,
+      "u_grasp": 0.4871,
+      "x_pinch": 2.3539,
+      "x_grasp": 2.9902,
+      "activation": 0.9157,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0238,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 7.139,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.588,
+      "u_grasp": 0.4871,
+      "x_pinch": 2.3539,
+      "x_grasp": 2.9902,
+      "activation": 0.9157,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0238,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 7.139,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.588,
+      "u_grasp": 0.4871,
+      "x_pinch": 2.3539,
+      "x_grasp": 2.9902,
+      "activation": 0.9157,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0238,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 7.205,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4981,
+      "u_grasp": 0.4403,
+      "x_pinch": 1.8958,
+      "x_grasp": 2.4783,
+      "activation": 0.8684,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.029,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 7.206,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4981,
+      "u_grasp": 0.4403,
+      "x_pinch": 1.8958,
+      "x_grasp": 2.4783,
+      "activation": 0.8684,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.029,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 9.419,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5183,
+      "u_grasp": 0.2043,
+      "x_pinch": 1.9986,
+      "x_grasp": -0.0638,
+      "activation": 0.7274,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0326,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.4145723025639425
+      }
+    },
+    {
+      "timestamp": 9.419,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5183,
+      "u_grasp": 0.2043,
+      "x_pinch": 1.9986,
+      "x_grasp": -0.0638,
+      "activation": 0.7274,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0326,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.4145723025639425
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 10.038,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7578,
+      "u_grasp": 0.2255,
+      "x_pinch": 3.2198,
+      "x_grasp": 0.0761,
+      "activation": 0.8767,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0437,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 10.038,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7578,
+      "u_grasp": 0.2255,
+      "x_pinch": 3.2198,
+      "x_grasp": 0.0761,
+      "activation": 0.8767,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0437,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 11.638,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3906,
+      "u_grasp": 0.1888,
+      "x_pinch": 1.3474,
+      "x_grasp": -0.177,
+      "activation": 0.5866,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0436,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 3.881065501919669
+      }
+    },
+    {
+      "timestamp": 11.639,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3906,
+      "u_grasp": 0.1888,
+      "x_pinch": 1.3474,
+      "x_grasp": -0.177,
+      "activation": 0.5866,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0436,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 3.881065501919669
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 11.971,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6506,
+      "u_grasp": 0.2482,
+      "x_pinch": 2.6731,
+      "x_grasp": 0.2266,
+      "activation": 0.8251,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0601,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 11.972,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6506,
+      "u_grasp": 0.2482,
+      "x_pinch": 2.6731,
+      "x_grasp": 0.2266,
+      "activation": 0.8251,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0601,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 13.337,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3328,
+      "u_grasp": 0.3699,
+      "x_pinch": 1.053,
+      "x_grasp": 1.7075,
+      "activation": 0.7285,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0167,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 13.506,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3656,
+      "u_grasp": 0.4959,
+      "x_pinch": 1.2199,
+      "x_grasp": 3.0865,
+      "activation": 0.8844,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0219,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 13.507,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3656,
+      "u_grasp": 0.4959,
+      "x_pinch": 1.2199,
+      "x_grasp": 3.0865,
+      "activation": 0.8844,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0219,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 14.107,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2962,
+      "u_grasp": 0.5128,
+      "x_pinch": 0.8664,
+      "x_grasp": 2.6578,
+      "activation": 0.8375,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0238,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.5047098124169227
+      }
+    },
+    {
+      "timestamp": 14.108,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2962,
+      "u_grasp": 0.5128,
+      "x_pinch": 0.8664,
+      "x_grasp": 2.6578,
+      "activation": 0.8375,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0238,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.5047098124169227
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 14.939,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0213,
+      "u_grasp": 0.3103,
+      "x_pinch": -0.5357,
+      "x_grasp": 1.0546,
+      "activation": 0.5365,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0175,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 15.006,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0614,
+      "u_grasp": 0.3788,
+      "x_pinch": -0.3309,
+      "x_grasp": 1.8046,
+      "activation": 0.6966,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0237,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 15.006,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0614,
+      "u_grasp": 0.3788,
+      "x_pinch": -0.3309,
+      "x_grasp": 1.8046,
+      "activation": 0.6966,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0237,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 15.872,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0406,
+      "u_grasp": 0.4539,
+      "x_pinch": -0.4372,
+      "x_grasp": 2.6264,
+      "activation": 0.8228,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0298,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 15.873,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0406,
+      "u_grasp": 0.4539,
+      "x_pinch": -0.4372,
+      "x_grasp": 2.6264,
+      "activation": 0.8228,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0298,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 16.105,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0096,
+      "u_grasp": 0.2859,
+      "x_pinch": -0.595,
+      "x_grasp": 0.7876,
+      "activation": 0.4735,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0358,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 16.171,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0072,
+      "u_grasp": 0.3183,
+      "x_pinch": -0.6072,
+      "x_grasp": 1.1426,
+      "activation": 0.5688,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0355,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 16.171,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0072,
+      "u_grasp": 0.3183,
+      "x_pinch": -0.6072,
+      "x_grasp": 1.1426,
+      "activation": 0.5688,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0355,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 16.759,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0002,
+      "u_grasp": 0.3155,
+      "x_pinch": -0.6432,
+      "x_grasp": 1.1117,
+      "activation": 0.5661,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0295,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 16.759,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0002,
+      "u_grasp": 0.3155,
+      "x_pinch": -0.6432,
+      "x_grasp": 1.1117,
+      "activation": 0.5661,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0295,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 16.806,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2971,
+      "x_pinch": -0.6434,
+      "x_grasp": 0.9102,
+      "activation": 0.5154,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0284,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 16.806,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2971,
+      "x_pinch": -0.6434,
+      "x_grasp": 0.9102,
+      "activation": 0.5154,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0284,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 16.861,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2812,
+      "x_pinch": -0.6436,
+      "x_grasp": 0.7367,
+      "activation": 0.4705,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0271,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 16.861,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2812,
+      "x_pinch": -0.6436,
+      "x_grasp": 0.7367,
+      "activation": 0.4705,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0271,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 16.904,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2812,
+      "x_pinch": -0.6437,
+      "x_grasp": 0.7358,
+      "activation": 0.4703,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0244,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 16.905,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2812,
+      "x_pinch": -0.6437,
+      "x_grasp": 0.7358,
+      "activation": 0.4703,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0244,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 16.934,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2672,
+      "x_pinch": -0.6438,
+      "x_grasp": 0.5835,
+      "activation": 0.4315,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0234,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 16.935,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2672,
+      "x_pinch": -0.6438,
+      "x_grasp": 0.5835,
+      "activation": 0.4315,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0234,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 16.974,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.3006,
+      "x_pinch": -0.6439,
+      "x_grasp": 0.9487,
+      "activation": 0.5254,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0244,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 16.974,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.3006,
+      "x_pinch": -0.6439,
+      "x_grasp": 0.9487,
+      "activation": 0.5254,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0244,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 17.234,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0777,
+      "u_grasp": 0.435,
+      "x_pinch": -0.2479,
+      "x_grasp": 2.42,
+      "activation": 0.7943,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0345,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 17.235,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0777,
+      "u_grasp": 0.435,
+      "x_pinch": -0.2479,
+      "x_grasp": 2.42,
+      "activation": 0.7943,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0345,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 18.938,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3751,
+      "u_grasp": 0.4052,
+      "x_pinch": 1.2685,
+      "x_grasp": 2.0939,
+      "activation": 0.7963,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0082,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 11,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 19,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2813,
+      "u_grasp": 0.4022,
+      "x_pinch": 0.7903,
+      "x_grasp": 2.0605,
+      "activation": 0.7618,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0168,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 19,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2813,
+      "u_grasp": 0.4022,
+      "x_pinch": 0.7903,
+      "x_grasp": 2.0605,
+      "activation": 0.7618,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0168,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 20.402,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0002,
+      "u_grasp": 0.3574,
+      "x_pinch": -0.6431,
+      "x_grasp": 1.375,
+      "activation": 0.6272,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0184,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.2124255863002174
+      }
+    },
+    {
+      "timestamp": 20.403,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0002,
+      "u_grasp": 0.3574,
+      "x_pinch": -0.6431,
+      "x_grasp": 1.375,
+      "activation": 0.6272,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0184,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.2124255863002174
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 20.667,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.358,
+      "x_pinch": -0.6437,
+      "x_grasp": 1.5772,
+      "activation": 0.6696,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0239,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 20.668,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.358,
+      "x_pinch": -0.6437,
+      "x_grasp": 1.5772,
+      "activation": 0.6696,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0239,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 21.357,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0223,
+      "u_grasp": 0.4005,
+      "x_pinch": -0.5304,
+      "x_grasp": 1.5991,
+      "activation": 0.6655,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0434,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.667522711262498
+      }
+    },
+    {
+      "timestamp": 21.357,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0223,
+      "u_grasp": 0.4005,
+      "x_pinch": -0.5304,
+      "x_grasp": 1.5991,
+      "activation": 0.6655,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0434,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.667522711262498
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 22.923,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.1721,
+      "x_pinch": -0.6441,
+      "x_grasp": -0.4577,
+      "activation": 0.4017,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0142,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 22.957,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.2187,
+      "x_pinch": -0.6441,
+      "x_grasp": 0.0516,
+      "activation": 0.3429,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0175,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 22.99,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.2569,
+      "x_pinch": -0.6441,
+      "x_grasp": 0.4701,
+      "activation": 0.4045,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0195,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 23.101,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.3441,
+      "x_pinch": -0.6441,
+      "x_grasp": 1.4251,
+      "activation": 0.6381,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0242,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 23.101,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.3441,
+      "x_pinch": -0.6441,
+      "x_grasp": 1.4251,
+      "activation": 0.6381,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0242,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 24.805,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0106,
+      "u_grasp": 0.3285,
+      "x_pinch": -0.5899,
+      "x_grasp": 1.1549,
+      "activation": 0.5696,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0326,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.0433237707225214
+      }
+    },
+    {
+      "timestamp": 24.805,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0106,
+      "u_grasp": 0.3285,
+      "x_pinch": -0.5899,
+      "x_grasp": 1.1549,
+      "activation": 0.5696,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0326,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.0433237707225214
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 25.223,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0003,
+      "u_grasp": 0.196,
+      "x_pinch": -0.6423,
+      "x_grasp": -0.1965,
+      "activation": 0.3538,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0226,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 25.291,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0002,
+      "u_grasp": 0.2903,
+      "x_pinch": -0.6431,
+      "x_grasp": 0.8363,
+      "activation": 0.4963,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0273,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 25.291,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0002,
+      "u_grasp": 0.2903,
+      "x_pinch": -0.6431,
+      "x_grasp": 0.8363,
+      "activation": 0.4963,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0273,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 25.723,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.3553,
+      "x_pinch": -0.644,
+      "x_grasp": 1.547,
+      "activation": 0.6635,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0188,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 25.723,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.3553,
+      "x_pinch": -0.644,
+      "x_grasp": 1.547,
+      "activation": 0.6635,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0188,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 26.523,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5325,
+      "u_grasp": 0.3347,
+      "x_pinch": 2.071,
+      "x_grasp": 1.3213,
+      "activation": 0.7975,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0539,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 26.524,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5325,
+      "u_grasp": 0.3347,
+      "x_pinch": 2.071,
+      "x_grasp": 1.3213,
+      "activation": 0.7975,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0539,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 27.189,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5062,
+      "u_grasp": 0.3479,
+      "x_pinch": 1.9367,
+      "x_grasp": 1.2885,
+      "activation": 0.7795,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0586,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.200165415111087
+      }
+    },
+    {
+      "timestamp": 27.189,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.5062,
+      "u_grasp": 0.3479,
+      "x_pinch": 1.9367,
+      "x_grasp": 1.2885,
+      "activation": 0.7795,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0586,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.200165415111087
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 27.257,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2847,
+      "u_grasp": 0.2985,
+      "x_pinch": 0.8076,
+      "x_grasp": 0.9258,
+      "activation": 0.55,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0689,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 27.29,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2135,
+      "u_grasp": 0.278,
+      "x_pinch": 0.4447,
+      "x_grasp": 0.6964,
+      "activation": 0.4155,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0694,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8166443317868972
+      }
+    },
+    {
+      "timestamp": 27.322,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1602,
+      "u_grasp": 0.28,
+      "x_pinch": 0.1725,
+      "x_grasp": 0.7228,
+      "activation": 0.3831,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0678,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 27.354,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1201,
+      "u_grasp": 0.2919,
+      "x_pinch": -0.0316,
+      "x_grasp": 0.8534,
+      "activation": 0.426,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0652,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 27.423,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0901,
+      "u_grasp": 0.3343,
+      "x_pinch": -0.1847,
+      "x_grasp": 1.3175,
+      "activation": 0.5788,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0639,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 27.423,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0901,
+      "u_grasp": 0.3343,
+      "x_pinch": -0.1847,
+      "x_grasp": 1.3175,
+      "activation": 0.5788,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0639,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 27.957,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2308,
+      "u_grasp": 0.5196,
+      "x_pinch": 0.5326,
+      "x_grasp": 3.3457,
+      "activation": 0.8894,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.048,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 27.957,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2308,
+      "u_grasp": 0.5196,
+      "x_pinch": 0.5326,
+      "x_grasp": 3.3457,
+      "activation": 0.8894,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.048,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 27.957,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2308,
+      "u_grasp": 0.5196,
+      "x_pinch": 0.5326,
+      "x_grasp": 3.3457,
+      "activation": 0.8894,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.048,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 28.389,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7837,
+      "u_grasp": 0.3586,
+      "x_pinch": 3.352,
+      "x_grasp": 1.107,
+      "activation": 0.8992,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0637,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 3.2786676342787544
+      }
+    },
+    {
+      "timestamp": 28.39,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7837,
+      "u_grasp": 0.3586,
+      "x_pinch": 3.352,
+      "x_grasp": 1.107,
+      "activation": 0.8992,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0637,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 3.2786676342787544
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 29.392,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2892,
+      "u_grasp": 0.251,
+      "x_pinch": 0.8305,
+      "x_grasp": 0.3103,
+      "activation": 0.438,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0209,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1461,
+          "grasp": 0.0413
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.7822595208276257
+      },
+      "success": true
+    },
+    {
+      "timestamp": 30.489,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3412,
+      "u_grasp": 0.3964,
+      "x_pinch": 0.8321,
+      "x_grasp": 1.2051,
+      "activation": 0.614,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0079,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 21,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.1561,
+          "grasp": 0.0727
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 30.69,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4416,
+      "u_grasp": 0.5164,
+      "x_pinch": 1.3074,
+      "x_grasp": 2.0726,
+      "activation": 0.7967,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0165,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1569,
+          "grasp": 0.0769
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 30.69,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4416,
+      "u_grasp": 0.5164,
+      "x_pinch": 1.3074,
+      "x_grasp": 2.0726,
+      "activation": 0.7967,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0165,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1569,
+          "grasp": 0.0769
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 31.022,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4505,
+      "u_grasp": 0.4353,
+      "x_pinch": 1.3519,
+      "x_grasp": 1.4144,
+      "activation": 0.7197,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0159,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1569,
+          "grasp": 0.0769
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8355155187375098
+      }
+    },
+    {
+      "timestamp": 31.022,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4505,
+      "u_grasp": 0.4353,
+      "x_pinch": 1.3519,
+      "x_grasp": 1.4144,
+      "activation": 0.7197,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0159,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1569,
+          "grasp": 0.0769
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8355155187375098
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 31.19,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6149,
+      "u_grasp": 0.3512,
+      "x_pinch": 2.1744,
+      "x_grasp": 0.6251,
+      "activation": 0.7702,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0289,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1569,
+          "grasp": 0.0769
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.5078783258437327
+      }
+    },
+    {
+      "timestamp": 31.19,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6149,
+      "u_grasp": 0.3512,
+      "x_pinch": 2.1744,
+      "x_grasp": 0.6251,
+      "activation": 0.7702,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0289,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1569,
+          "grasp": 0.0769
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.5078783258437327
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 31.623,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7274,
+      "u_grasp": 0.2682,
+      "x_pinch": 2.7364,
+      "x_grasp": 0.07,
+      "activation": 0.8312,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.039,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1569,
+          "grasp": 0.0769
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 31.624,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7274,
+      "u_grasp": 0.2682,
+      "x_pinch": 2.7364,
+      "x_grasp": 0.07,
+      "activation": 0.8312,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.039,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1569,
+          "grasp": 0.0769
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 34.389,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3398,
+      "u_grasp": 0.3885,
+      "x_pinch": 0.197,
+      "x_grasp": 0.7715,
+      "activation": 0.404,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0089,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 48,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.1071,
+          "grasp": 0.0505
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 34.788,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3796,
+      "u_grasp": 0.5392,
+      "x_pinch": 0.4596,
+      "x_grasp": 2.2089,
+      "activation": 0.7693,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0144,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 34.789,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3796,
+      "u_grasp": 0.5392,
+      "x_pinch": 0.4596,
+      "x_grasp": 2.2089,
+      "activation": 0.7693,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0144,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 36.321,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0093,
+      "u_grasp": 0.3776,
+      "x_pinch": -1.965,
+      "x_grasp": 0.5928,
+      "activation": 0.7366,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0345,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.9614689651555823
+      }
+    },
+    {
+      "timestamp": 36.322,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0093,
+      "u_grasp": 0.3776,
+      "x_pinch": -1.965,
+      "x_grasp": 0.5928,
+      "activation": 0.7366,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0345,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.9614689651555823
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 36.754,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0004,
+      "u_grasp": 0.1549,
+      "x_pinch": -2.0233,
+      "x_grasp": -1.5531,
+      "activation": 0.8095,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0298,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 36.855,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0002,
+      "u_grasp": 0.2875,
+      "x_pinch": -2.0247,
+      "x_grasp": -0.2545,
+      "activation": 0.7346,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0336,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 36.855,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0002,
+      "u_grasp": 0.2875,
+      "x_pinch": -2.0247,
+      "x_grasp": -0.2545,
+      "activation": 0.7346,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0336,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 37.754,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4082,
+      "u_grasp": 0.4746,
+      "x_pinch": 0.6465,
+      "x_grasp": 1.5766,
+      "activation": 0.6697,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0519,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 37.754,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4082,
+      "u_grasp": 0.4746,
+      "x_pinch": 0.6465,
+      "x_grasp": 1.5766,
+      "activation": 0.6697,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0519,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 37.755,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4082,
+      "u_grasp": 0.4746,
+      "x_pinch": 0.6465,
+      "x_grasp": 1.5766,
+      "activation": 0.6697,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0519,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 38.112,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.735,
+      "u_grasp": 0.5478,
+      "x_pinch": 2.7862,
+      "x_grasp": 2.2075,
+      "activation": 0.9008,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0564,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.9073063166035813
+      }
+    },
+    {
+      "timestamp": 38.113,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.735,
+      "u_grasp": 0.5478,
+      "x_pinch": 2.7862,
+      "x_grasp": 2.2075,
+      "activation": 0.9008,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0564,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.9073063166035813
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 38.113,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.735,
+      "u_grasp": 0.5478,
+      "x_pinch": 2.7862,
+      "x_grasp": 2.2075,
+      "activation": 0.9008,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0564,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.9073063166035813
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 38.159,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6767,
+      "u_grasp": 0.5146,
+      "x_pinch": 2.4047,
+      "x_grasp": 1.8364,
+      "activation": 0.8601,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0574,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.000673604052667
+      }
+    },
+    {
+      "timestamp": 38.16,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6767,
+      "u_grasp": 0.5146,
+      "x_pinch": 2.4047,
+      "x_grasp": 1.8364,
+      "activation": 0.8601,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0574,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.000673604052667
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 38.196,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.639,
+      "u_grasp": 0.4928,
+      "x_pinch": 2.1576,
+      "x_grasp": 1.7017,
+      "activation": 0.8324,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.056,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.885165181594008
+      }
+    },
+    {
+      "timestamp": 38.196,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.639,
+      "u_grasp": 0.4928,
+      "x_pinch": 2.1576,
+      "x_grasp": 1.7017,
+      "activation": 0.8324,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.056,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.885165181594008
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 38.423,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.559,
+      "u_grasp": 0.4569,
+      "x_pinch": 1.6341,
+      "x_grasp": 1.3899,
+      "activation": 0.752,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.04,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8256100749295203
+      }
+    },
+    {
+      "timestamp": 38.423,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.559,
+      "u_grasp": 0.4569,
+      "x_pinch": 1.6341,
+      "x_grasp": 1.3899,
+      "activation": 0.752,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.04,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8256100749295203
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 39.756,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3942,
+      "u_grasp": 0.3803,
+      "x_pinch": 0.5548,
+      "x_grasp": 0.6534,
+      "activation": 0.4272,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0136,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 39.823,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4143,
+      "u_grasp": 0.486,
+      "x_pinch": 0.6868,
+      "x_grasp": 1.688,
+      "activation": 0.6941,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0213,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 39.824,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4143,
+      "u_grasp": 0.486,
+      "x_pinch": 0.6868,
+      "x_grasp": 1.688,
+      "activation": 0.6941,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0213,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 40.487,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7572,
+      "u_grasp": 0.6734,
+      "x_pinch": 2.9317,
+      "x_grasp": 3.5224,
+      "activation": 0.9491,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0331,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 40.488,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7572,
+      "u_grasp": 0.6734,
+      "x_pinch": 2.9317,
+      "x_grasp": 3.5224,
+      "activation": 0.9491,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0331,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 40.488,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7572,
+      "u_grasp": 0.6734,
+      "x_pinch": 2.9317,
+      "x_grasp": 3.5224,
+      "activation": 0.9491,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0331,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 41.122,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.731,
+      "u_grasp": 0.4852,
+      "x_pinch": 2.7599,
+      "x_grasp": 1.3085,
+      "activation": 0.8627,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0326,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.693042301920983
+      }
+    },
+    {
+      "timestamp": 41.122,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.731,
+      "u_grasp": 0.4852,
+      "x_pinch": 2.7599,
+      "x_grasp": 1.3085,
+      "activation": 0.8627,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0326,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1027,
+          "grasp": 0.0522
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.693042301920983
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 43.254,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6274,
+      "u_grasp": 0.3008,
+      "x_pinch": 1.68,
+      "x_grasp": 0.2232,
+      "activation": 0.6677,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0208,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 43.255,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6274,
+      "u_grasp": 0.3008,
+      "x_pinch": 1.68,
+      "x_grasp": 0.2232,
+      "activation": 0.6677,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0208,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 43.586,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7064,
+      "u_grasp": 0.3242,
+      "x_pinch": 2.1891,
+      "x_grasp": 0.2632,
+      "activation": 0.7614,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0396,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 43.587,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.7064,
+      "u_grasp": 0.3242,
+      "x_pinch": 2.1891,
+      "x_grasp": 0.2632,
+      "activation": 0.7614,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0396,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 45.252,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.293,
+      "u_grasp": 0.351,
+      "x_pinch": -0.4719,
+      "x_grasp": 0.6782,
+      "activation": 0.4155,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0214,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 45.556,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0516,
+      "u_grasp": 0.4141,
+      "x_pinch": -2.0261,
+      "x_grasp": 1.2502,
+      "activation": 0.7872,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0284,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 45.556,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0516,
+      "u_grasp": 0.4141,
+      "x_pinch": -2.0261,
+      "x_grasp": 1.2502,
+      "activation": 0.7872,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0284,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 46.787,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2219,
+      "u_grasp": 0.4077,
+      "x_pinch": -0.9298,
+      "x_grasp": 1.0801,
+      "activation": 0.604,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.022,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.095458530481336
+      }
+    },
+    {
+      "timestamp": 46.788,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2219,
+      "u_grasp": 0.4077,
+      "x_pinch": -0.9298,
+      "x_grasp": 1.0801,
+      "activation": 0.604,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.022,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.095458530481336
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 47.318,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3176,
+      "u_grasp": 0.3608,
+      "x_pinch": -0.3138,
+      "x_grasp": 0.7531,
+      "activation": 0.4116,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0128,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.852549318787373
+      }
+    },
+    {
+      "timestamp": 47.388,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3627,
+      "u_grasp": 0.454,
+      "x_pinch": -0.0238,
+      "x_grasp": 1.6125,
+      "activation": 0.6494,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0205,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 47.388,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3627,
+      "u_grasp": 0.454,
+      "x_pinch": -0.0238,
+      "x_grasp": 1.6125,
+      "activation": 0.6494,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0205,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 47.485,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6061,
+      "u_grasp": 0.5652,
+      "x_pinch": 1.543,
+      "x_grasp": 2.6201,
+      "activation": 0.8614,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.042,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 47.485,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6061,
+      "u_grasp": 0.5652,
+      "x_pinch": 1.543,
+      "x_grasp": 2.6201,
+      "activation": 0.8614,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.042,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 47.485,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6061,
+      "u_grasp": 0.5652,
+      "x_pinch": 1.543,
+      "x_grasp": 2.6201,
+      "activation": 0.8614,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.042,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 47.783,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6504,
+      "u_grasp": 0.6751,
+      "x_pinch": 1.8286,
+      "x_grasp": 3.6169,
+      "activation": 0.9282,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0579,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 47.784,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6504,
+      "u_grasp": 0.6751,
+      "x_pinch": 1.8286,
+      "x_grasp": 3.6169,
+      "activation": 0.9282,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0579,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 47.784,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.6504,
+      "u_grasp": 0.6751,
+      "x_pinch": 1.8286,
+      "x_grasp": 3.6169,
+      "activation": 0.9282,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0579,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 48.755,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0009,
+      "u_grasp": 0.4015,
+      "x_pinch": -2.3525,
+      "x_grasp": 1.1362,
+      "activation": 0.817,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0295,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 48.755,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0009,
+      "u_grasp": 0.4015,
+      "x_pinch": -2.3525,
+      "x_grasp": 1.1362,
+      "activation": 0.817,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0295,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 50.188,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3858,
+      "u_grasp": 0.2055,
+      "x_pinch": 0.1254,
+      "x_grasp": -0.5525,
+      "activation": 0.3081,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0414,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.2682388884954943
+      }
+    },
+    {
+      "timestamp": 50.188,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3858,
+      "u_grasp": 0.2055,
+      "x_pinch": 0.1254,
+      "x_grasp": -0.5525,
+      "activation": 0.3081,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0414,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.2682388884954943
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 52.886,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.805,
+      "u_grasp": 0.2657,
+      "x_pinch": 2.8236,
+      "x_grasp": -0.0572,
+      "activation": 0.8405,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0298,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 52.886,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.805,
+      "u_grasp": 0.2657,
+      "x_pinch": 2.8236,
+      "x_grasp": -0.0572,
+      "activation": 0.8405,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0298,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 53.521,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0507,
+      "u_grasp": 0.3401,
+      "x_pinch": -2.0315,
+      "x_grasp": 0.5797,
+      "activation": 0.7467,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.038,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1054,
+          "grasp": 0.0603
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 56.676,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0163,
+      "u_grasp": 0.4788,
+      "x_pinch": -0.6015,
+      "x_grasp": 0.6169,
+      "activation": 0.4288,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0043,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 48,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 56.676,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0163,
+      "u_grasp": 0.4788,
+      "x_pinch": -0.6015,
+      "x_grasp": 0.6169,
+      "activation": 0.4288,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0043,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 48,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 57.186,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2118,
+      "u_grasp": 0.4365,
+      "x_pinch": 0.376,
+      "x_grasp": 0.3096,
+      "activation": 0.2714,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0162,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 57.187,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2118,
+      "u_grasp": 0.4365,
+      "x_pinch": 0.376,
+      "x_grasp": 0.3096,
+      "activation": 0.2714,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0162,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 57.688,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.127,
+      "u_grasp": 0.4851,
+      "x_pinch": -0.0475,
+      "x_grasp": 0.663,
+      "activation": 0.3508,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0202,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 57.688,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.127,
+      "u_grasp": 0.4851,
+      "x_pinch": -0.0475,
+      "x_grasp": 0.663,
+      "activation": 0.3508,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0202,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 59.987,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0051,
+      "u_grasp": 0.39,
+      "x_pinch": -0.6575,
+      "x_grasp": -0.0221,
+      "activation": 0.3479,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0211,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.562575442291253
+      }
+    },
+    {
+      "timestamp": 59.988,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0051,
+      "u_grasp": 0.39,
+      "x_pinch": -0.6575,
+      "x_grasp": -0.0221,
+      "activation": 0.3479,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0211,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.562575442291253
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 60.654,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2004,
+      "x_pinch": -0.6823,
+      "x_grasp": -1.4046,
+      "activation": 0.6376,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0242,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 60.706,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2519,
+      "x_pinch": -0.6824,
+      "x_grasp": -1.0304,
+      "activation": 0.5522,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0269,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 60.706,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0001,
+      "u_grasp": 0.2519,
+      "x_pinch": -0.6824,
+      "x_grasp": -1.0304,
+      "activation": 0.5522,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0269,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 60.791,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.3119,
+      "x_pinch": -0.6826,
+      "x_grasp": -0.5953,
+      "activation": 0.4449,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0274,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 60.792,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.3119,
+      "x_pinch": -0.6826,
+      "x_grasp": -0.5953,
+      "activation": 0.4449,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0274,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 60.855,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0,
+      "u_grasp": 0.2962,
+      "x_pinch": -0.6826,
+      "x_grasp": -0.5575,
+      "activation": 0.4361,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0262,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.648581026629796
+      }
+    },
+    {
+      "timestamp": 62.173,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2902,
+      "u_grasp": 0.3672,
+      "x_pinch": 0.7684,
+      "x_grasp": -0.1932,
+      "activation": 0.4025,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0115,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 62.209,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2493,
+      "u_grasp": 0.3759,
+      "x_pinch": 0.5635,
+      "x_grasp": -0.1304,
+      "activation": 0.3134,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0146,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.1645,
+          "grasp": 0.0877
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 64.74,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0561,
+      "u_grasp": 0.3974,
+      "x_pinch": -0.2612,
+      "x_grasp": -0.3189,
+      "activation": 0.235,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0098,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 41,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.076,
+          "grasp": 0.0485
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 1.8092394732509802
+      }
+    },
+    {
+      "timestamp": 65.637,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2857,
+      "u_grasp": 0.3203,
+      "x_pinch": 1.5605,
+      "x_grasp": -1.0115,
+      "activation": 0.7014,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0067,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 6,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.076,
+          "grasp": 0.0485
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.0561356129345447
+      },
+      "success": true
+    },
+    {
+      "timestamp": 65.648,
+      "sessionId": "S_5575cf88-713a-4da5-9e16-defac35f083f",
+      "taskId": "FISHHUNT",
+      "event": "SESSION_FINISHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2857,
+      "u_grasp": 0.3203,
+      "x_pinch": 1.5605,
+      "x_grasp": -1.0115,
+      "activation": 0.7014,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0067,
+        "instantMotionQuiescent": true,
+        "quiescent": false,
+        "stableFrames": 6,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.076,
+          "grasp": 0.0485
+        }
+      },
+      "context": {
+        "game": "FISHHUNT",
+        "expectedGestures": [
+          "pinch",
+          "grasp"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1.1700000000000002,
+        "modulatedGraspThreshold": 2.0561356129345447
+      },
+      "message": "Validation session finished."
+    }
+  ],
+  "researchBuffer": []
+}
