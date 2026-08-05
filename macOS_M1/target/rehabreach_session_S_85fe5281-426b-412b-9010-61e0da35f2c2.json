@@ -1,0 +1,2473 @@
+{
+  "loggerVersion": "1.2.0",
+  "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+  "startTime": "2026-08-05T02:23:10.391Z",
+  "endTime": "2026-08-05T02:24:16.072Z",
+  "metadata": {
+    "loggerVersion": "1.2.0",
+    "appVersion": "1.0.0",
+    "algorithmVersion": "1.0.0",
+    "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+    "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+    "platform": "MacIntel",
+    "device": "Desktop",
+    "mediaPipeVersion": "0.10.0",
+    "cameraResolution": "640x480",
+    "sourceFPS": 30
+  },
+  "summaryStatistics": {
+    "mean_u_pinch": 0.302,
+    "max_u_pinch": 0.4793,
+    "mean_u_grasp": 0.2714,
+    "max_u_grasp": 0.4498,
+    "total_pinch_intent_duration_sec": 0.2,
+    "total_grasp_intent_duration_sec": 0.18,
+    "number_of_accepted_actions": 0,
+    "number_of_rejected_actions": 0,
+    "execution_success_rate_percent": 100,
+    "tracking_uptime_percent": 100
+  },
+  "stats": {
+    "trackingLostEvents": 0,
+    "trackingRecoveredEvents": 0,
+    "activeFrames": 3573,
+    "trackedFrames": 3573,
+    "pinchCount": 3,
+    "graspCount": 3,
+    "rapidTransitions": 12,
+    "completedGames": 1,
+    "totalGames": 1,
+    "successRateTotal": 100,
+    "successRateCount": 1,
+    "measurements": [],
+    "trackingUptimePercent": 100
+  },
+  "clinicalStats": {
+    "clinicalPinchCount": 2,
+    "clinicalGraspCount": 1,
+    "clinicalGestureDurations": {
+      "pinch": [
+        0.171
+      ],
+      "grasp": [
+        0.243
+      ]
+    },
+    "clinicalAvgPinchDuration": 0.171,
+    "clinicalAvgGraspDuration": 0.243
+  },
+  "eventHistory": [
+    {
+      "timestamp": 0,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "SESSION_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2761,
+      "u_grasp": 0.345,
+      "x_pinch": -0.422,
+      "x_grasp": 0.0619,
+      "activation": 0.2421,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.003,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 0,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0287,
+          "grasp": 0.019
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Validation session initialized."
+    },
+    {
+      "timestamp": 5.699,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TRACKING_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3297,
+      "u_grasp": 0.168,
+      "x_pinch": 0.2588,
+      "x_grasp": -1.3879,
+      "activation": 0.6005,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0143,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0287,
+          "grasp": 0.019
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Initial tracking acquired. Confidence: 0.99"
+    },
+    {
+      "timestamp": 5.7,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3297,
+      "u_grasp": 0.168,
+      "x_pinch": 0.2588,
+      "x_grasp": -1.3879,
+      "activation": 0.6005,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0143,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0287,
+          "grasp": 0.019
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 7.471,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2906,
+      "u_grasp": 0.1604,
+      "x_pinch": -0.1884,
+      "x_grasp": -0.3434,
+      "activation": 0.2247,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0025,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 43,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0192,
+          "grasp": 0.0829
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "success": true
+    },
+    {
+      "timestamp": 10.31,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2983,
+      "u_grasp": 0.1943,
+      "x_pinch": 0.0407,
+      "x_grasp": 0.0395,
+      "activation": 0.0362,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0015,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 108,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0038,
+          "grasp": 0.0137
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.3284792577918205
+      },
+      "success": true
+    },
+    {
+      "timestamp": 12.163,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3038,
+      "u_grasp": 0.1984,
+      "x_pinch": 0.066,
+      "x_grasp": 0.0416,
+      "activation": 0.0494,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.002,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 157,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0035,
+          "grasp": 0.0049
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.7083902164553177
+      },
+      "success": true
+    },
+    {
+      "timestamp": 13.93,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3079,
+      "u_grasp": 0.2074,
+      "x_pinch": 0.0495,
+      "x_grasp": 0.0476,
+      "activation": 0.0437,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0031,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 198,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0038,
+          "grasp": 0.0076
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.5897932485870845
+      },
+      "success": true
+    },
+    {
+      "timestamp": 16.936,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3215,
+      "u_grasp": 0.1839,
+      "x_pinch": 0.032,
+      "x_grasp": -0.0451,
+      "activation": 0.0353,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.001,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 268,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0063,
+          "grasp": 0.0079
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "success": true
+    },
+    {
+      "timestamp": 19.215,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2996,
+      "u_grasp": 0.2352,
+      "x_pinch": -0.0684,
+      "x_grasp": 0.1863,
+      "activation": 0.121,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0027,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 313,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0132,
+          "grasp": 0.0226
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.470360608270534
+      },
+      "success": true
+    },
+    {
+      "timestamp": 23.065,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3011,
+      "u_grasp": 0.2926,
+      "x_pinch": -0.0494,
+      "x_grasp": 0.2322,
+      "activation": 0.143,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0023,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 391,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0053,
+          "grasp": 0.0252
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.3845415842782662
+      },
+      "success": true
+    },
+    {
+      "timestamp": 24.833,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3165,
+      "u_grasp": 0.2462,
+      "x_pinch": 0.1313,
+      "x_grasp": -0.2132,
+      "activation": 0.1502,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0022,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 431,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.007,
+          "grasp": 0.0212
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 3.2313290406301007
+      },
+      "success": true
+    },
+    {
+      "timestamp": 27.029,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3081,
+      "u_grasp": 0.3088,
+      "x_pinch": -0.0028,
+      "x_grasp": 0.3115,
+      "activation": 0.1833,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0017,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 484,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0041,
+          "grasp": 0.0216
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.2506203001016485
+      },
+      "success": true
+    },
+    {
+      "timestamp": 28.999,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3179,
+      "u_grasp": 0.1991,
+      "x_pinch": 0.0956,
+      "x_grasp": -0.2546,
+      "activation": 0.1621,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0032,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 526,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0102,
+          "grasp": 0.0481
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.193931885003707
+      },
+      "success": true
+    },
+    {
+      "timestamp": 30.715,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2927,
+      "u_grasp": 0.3029,
+      "x_pinch": -0.0336,
+      "x_grasp": 0.5483,
+      "activation": 0.3003,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.006,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 563,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0183,
+          "grasp": 0.0381
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.0448609918117966
+      },
+      "success": true
+    },
+    {
+      "timestamp": 31.619,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3012,
+      "u_grasp": 0.3483,
+      "x_pinch": 0.0095,
+      "x_grasp": 0.5207,
+      "activation": 0.2872,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0049,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 585,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0116,
+          "grasp": 0.0465
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.5367994309339825
+      }
+    },
+    {
+      "timestamp": 31.682,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2864,
+      "u_grasp": 0.3394,
+      "x_pinch": -0.1969,
+      "x_grasp": 0.4727,
+      "activation": 0.2831,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0062,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 586,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0117,
+          "grasp": 0.0467
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.187989351504144
+      }
+    },
+    {
+      "timestamp": 32.622,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2714,
+      "u_grasp": 0.2815,
+      "x_pinch": -0.2951,
+      "x_grasp": -0.0509,
+      "activation": 0.1769,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0054,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 19,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0185,
+          "grasp": 0.0343
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.5258944090823547
+      },
+      "success": true
+    },
+    {
+      "timestamp": 34.482,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3197,
+      "u_grasp": 0.2702,
+      "x_pinch": 0.2352,
+      "x_grasp": -0.0992,
+      "activation": 0.1529,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0023,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 72,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0178,
+          "grasp": 0.0155
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.673285498695112
+      },
+      "success": true
+    },
+    {
+      "timestamp": 36.249,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3144,
+      "u_grasp": 0.2543,
+      "x_pinch": 0.1136,
+      "x_grasp": -0.0735,
+      "activation": 0.0842,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0028,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 122,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0069,
+          "grasp": 0.0159
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.902426132994213
+      },
+      "success": true
+    },
+    {
+      "timestamp": 38.324,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3133,
+      "u_grasp": 0.3017,
+      "x_pinch": 0.0319,
+      "x_grasp": 0.1674,
+      "activation": 0.1048,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0015,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 177,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0034,
+          "grasp": 0.0206
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.385655525194752
+      },
+      "success": true
+    },
+    {
+      "timestamp": 40.212,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.318,
+      "u_grasp": 0.2455,
+      "x_pinch": 0.0808,
+      "x_grasp": -0.2402,
+      "activation": 0.1518,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0024,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 230,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0076,
+          "grasp": 0.0253
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.9293647030266348
+      },
+      "success": true
+    },
+    {
+      "timestamp": 41.212,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2662,
+      "u_grasp": 0.3305,
+      "x_pinch": -0.6421,
+      "x_grasp": 0.8575,
+      "activation": 0.5016,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.01,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9102394466843982
+      }
+    },
+    {
+      "timestamp": 41.315,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3522,
+      "u_grasp": 0.3395,
+      "x_pinch": 0.5852,
+      "x_grasp": 1.0126,
+      "activation": 0.5324,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0278,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 41.316,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3522,
+      "u_grasp": 0.3395,
+      "x_pinch": 0.5852,
+      "x_grasp": 1.0126,
+      "activation": 0.5324,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0278,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 41.416,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1793,
+      "u_grasp": 0.3594,
+      "x_pinch": -1.8838,
+      "x_grasp": 1.2769,
+      "activation": 0.7722,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0366,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 41.416,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1793,
+      "u_grasp": 0.3594,
+      "x_pinch": -1.8838,
+      "x_grasp": 1.2769,
+      "activation": 0.7722,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0366,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 41.416,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1793,
+      "u_grasp": 0.3594,
+      "x_pinch": -1.8838,
+      "x_grasp": 1.2769,
+      "activation": 0.7722,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0366,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 41.451,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1345,
+      "u_grasp": 0.3703,
+      "x_pinch": -2.5242,
+      "x_grasp": 1.4227,
+      "activation": 0.8479,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0376,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 41.452,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1345,
+      "u_grasp": 0.3703,
+      "x_pinch": -2.5242,
+      "x_grasp": 1.4227,
+      "activation": 0.8479,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0376,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 41.452,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.1345,
+      "u_grasp": 0.3703,
+      "x_pinch": -2.5242,
+      "x_grasp": 1.4227,
+      "activation": 0.8479,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0376,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 41.518,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0757,
+      "u_grasp": 0.3592,
+      "x_pinch": -3.3648,
+      "x_grasp": 1.2749,
+      "activation": 0.9036,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0363,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 41.518,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0757,
+      "u_grasp": 0.3592,
+      "x_pinch": -3.3648,
+      "x_grasp": 1.2749,
+      "activation": 0.9036,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0363,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 41.518,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.0757,
+      "u_grasp": 0.3592,
+      "x_pinch": -3.3648,
+      "x_grasp": 1.2749,
+      "activation": 0.9036,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.0363,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 41.589,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_ACCEPTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2504,
+      "u_grasp": 0.3161,
+      "x_pinch": -0.8687,
+      "x_grasp": 0.6541,
+      "activation": 0.5068,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0515,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9978067178044117
+      }
+    },
+    {
+      "timestamp": 41.589,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "PINCH_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2504,
+      "u_grasp": 0.3161,
+      "x_pinch": -0.8687,
+      "x_grasp": 0.6541,
+      "activation": 0.5068,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0515,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9978067178044117
+      },
+      "message": "Pinch started."
+    },
+    {
+      "timestamp": 41.589,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2504,
+      "u_grasp": 0.3161,
+      "x_pinch": -0.8687,
+      "x_grasp": 0.6541,
+      "activation": 0.5068,
+      "intent": "pinch",
+      "eadmr": {
+        "velocity": 0.0515,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9978067178044117
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 41.62,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.256,
+      "u_grasp": 0.3416,
+      "x_pinch": -0.7885,
+      "x_grasp": 0.9004,
+      "activation": 0.5407,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.049,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.2520058366328164
+      }
+    },
+    {
+      "timestamp": 41.62,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "PINCH_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.256,
+      "u_grasp": 0.3416,
+      "x_pinch": -0.7885,
+      "x_grasp": 0.9004,
+      "activation": 0.5407,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.049,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.2520058366328164
+      },
+      "message": "Pinch ended."
+    },
+    {
+      "timestamp": 41.62,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "GRASP_INTENT_STARTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.256,
+      "u_grasp": 0.3416,
+      "x_pinch": -0.7885,
+      "x_grasp": 0.9004,
+      "activation": 0.5407,
+      "intent": "grasp",
+      "eadmr": {
+        "velocity": 0.049,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.2520058366328164
+      },
+      "message": "Grasp started."
+    },
+    {
+      "timestamp": 41.689,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4793,
+      "u_grasp": 0.2854,
+      "x_pinch": 2.4018,
+      "x_grasp": 0.1755,
+      "activation": 0.791,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0624,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      }
+    },
+    {
+      "timestamp": 41.69,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "GRASP_INTENT_ENDED",
+      "hand": "RIGHT",
+      "u_pinch": 0.4793,
+      "u_grasp": 0.2854,
+      "x_pinch": 2.4018,
+      "x_grasp": 0.1755,
+      "activation": 0.791,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0624,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 4.433497536945812
+      },
+      "message": "Grasp ended."
+    },
+    {
+      "timestamp": 41.922,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2935,
+      "u_grasp": 0.2808,
+      "x_pinch": -0.253,
+      "x_grasp": 0.1861,
+      "activation": 0.1847,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0418,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.514182039412565
+      },
+      "success": true
+    },
+    {
+      "timestamp": 42.818,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3196,
+      "u_grasp": 0.3286,
+      "x_pinch": 0.1204,
+      "x_grasp": 0.8673,
+      "activation": 0.434,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0105,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 42.882,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.294,
+      "u_grasp": 0.3389,
+      "x_pinch": -0.2456,
+      "x_grasp": 0.9393,
+      "activation": 0.468,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0115,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0068,
+          "grasp": 0.0149
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9920316360598262
+      }
+    },
+    {
+      "timestamp": 45.046,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2977,
+      "u_grasp": 0.3277,
+      "x_pinch": -0.0371,
+      "x_grasp": 0.318,
+      "activation": 0.1879,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0016,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 46,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0074,
+          "grasp": 0.0303
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.043167350609109
+      },
+      "success": true
+    },
+    {
+      "timestamp": 46.681,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3132,
+      "u_grasp": 0.2565,
+      "x_pinch": 0.1422,
+      "x_grasp": -0.207,
+      "activation": 0.1506,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0024,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 85,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0077,
+          "grasp": 0.0293
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.785465316125885
+      },
+      "success": true
+    },
+    {
+      "timestamp": 47.482,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3086,
+      "u_grasp": 0.2644,
+      "x_pinch": 0.0099,
+      "x_grasp": -0.0706,
+      "activation": 0.0453,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.002,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 105,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0071,
+          "grasp": 0.0174
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.538232702355459
+      },
+      "success": true
+    },
+    {
+      "timestamp": 49.458,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3275,
+      "u_grasp": 0.2895,
+      "x_pinch": 0.1867,
+      "x_grasp": -0.005,
+      "activation": 0.1143,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0026,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 152,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0093,
+          "grasp": 0.0104
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.5462593375248166
+      },
+      "success": true
+    },
+    {
+      "timestamp": 51.412,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2905,
+      "u_grasp": 0.314,
+      "x_pinch": -0.1571,
+      "x_grasp": 0.0555,
+      "activation": 0.1026,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0033,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 200,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.016,
+          "grasp": 0.0157
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.2684017497078015
+      },
+      "success": true
+    },
+    {
+      "timestamp": 53.079,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3145,
+      "u_grasp": 0.252,
+      "x_pinch": 0.1623,
+      "x_grasp": -0.233,
+      "activation": 0.1686,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0024,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 241,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0125,
+          "grasp": 0.0294
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.9879716008940287
+      },
+      "success": true
+    },
+    {
+      "timestamp": 54.112,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2555,
+      "u_grasp": 0.3419,
+      "x_pinch": -0.6349,
+      "x_grasp": 0.8875,
+      "activation": 0.508,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0086,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 266,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0158,
+          "grasp": 0.0247
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 54.145,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2556,
+      "u_grasp": 0.3489,
+      "x_pinch": -0.6139,
+      "x_grasp": 0.9263,
+      "activation": 0.5144,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0084,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 267,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0172,
+          "grasp": 0.027
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 54.58,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2906,
+      "u_grasp": 0.3202,
+      "x_pinch": -0.0285,
+      "x_grasp": 0.3092,
+      "activation": 0.1827,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0063,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 277,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0173,
+          "grasp": 0.0342
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.038183504922388
+      },
+      "success": true
+    },
+    {
+      "timestamp": 56.414,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3054,
+      "u_grasp": 0.3785,
+      "x_pinch": 0.0767,
+      "x_grasp": 0.3952,
+      "activation": 0.2302,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.002,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 323,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0075,
+          "grasp": 0.0362
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "success": true
+    },
+    {
+      "timestamp": 58.745,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3169,
+      "u_grasp": 0.2734,
+      "x_pinch": 0.1188,
+      "x_grasp": -0.2798,
+      "activation": 0.1793,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0026,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 380,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0099,
+          "grasp": 0.0433
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.540660645952416
+      },
+      "success": true
+    },
+    {
+      "timestamp": 59.814,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.294,
+      "u_grasp": 0.34,
+      "x_pinch": -0.1836,
+      "x_grasp": 0.6003,
+      "activation": 0.335,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.008,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 405,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0084,
+          "grasp": 0.0271
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 59.876,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2944,
+      "u_grasp": 0.3604,
+      "x_pinch": -0.1735,
+      "x_grasp": 0.8186,
+      "activation": 0.4195,
+      "intent": "transition",
+      "eadmr": {
+        "velocity": 0.0092,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 406,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0086,
+          "grasp": 0.029
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 61.115,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2886,
+      "u_grasp": 0.4408,
+      "x_pinch": -0.1647,
+      "x_grasp": 0.7628,
+      "activation": 0.3978,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0023,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 27,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0111,
+          "grasp": 0.0722
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 61.847,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2938,
+      "u_grasp": 0.4387,
+      "x_pinch": -0.0411,
+      "x_grasp": 0.4643,
+      "activation": 0.2614,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0015,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 44,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0082,
+          "grasp": 0.0688
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "success": true
+    },
+    {
+      "timestamp": 62.745,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2811,
+      "u_grasp": 0.4278,
+      "x_pinch": -0.1622,
+      "x_grasp": 0.1732,
+      "activation": 0.1429,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0045,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 66,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0073,
+          "grasp": 0.0468
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.0526991969002597
+      }
+    },
+    {
+      "timestamp": 64.36,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "TASK_COMPLETED",
+      "hand": "RIGHT",
+      "u_pinch": 0.3002,
+      "u_grasp": 0.3067,
+      "x_pinch": 0.0635,
+      "x_grasp": -0.5275,
+      "activation": 0.292,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0029,
+        "instantMotionQuiescent": true,
+        "quiescent": true,
+        "stableFrames": 25,
+        "baselineUpdated": true,
+        "noiseLevel": {
+          "pinch": 0.0084,
+          "grasp": 0.0627
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 2.2593966546287145
+      },
+      "success": true
+    },
+    {
+      "timestamp": 65.512,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2935,
+      "u_grasp": 0.3345,
+      "x_pinch": -0.032,
+      "x_grasp": 0.1121,
+      "activation": 0.073,
+      "intent": "neutral",
+      "eadmr": {
+        "velocity": 0.0102,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      }
+    },
+    {
+      "timestamp": 65.548,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "CONTEXT_REJECTED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2838,
+      "u_grasp": 0.3316,
+      "x_pinch": -0.1702,
+      "x_grasp": 0.0831,
+      "activation": 0.1159,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0102,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.9050111204033546
+      }
+    },
+    {
+      "timestamp": 65.679,
+      "sessionId": "S_85fe5281-426b-412b-9010-61e0da35f2c2",
+      "taskId": "TARGET",
+      "event": "SESSION_FINISHED",
+      "hand": "RIGHT",
+      "u_pinch": 0.2499,
+      "u_grasp": 0.3217,
+      "x_pinch": -0.6546,
+      "x_grasp": -0.0006,
+      "activation": 0.3465,
+      "intent": "open",
+      "eadmr": {
+        "velocity": 0.0119,
+        "instantMotionQuiescent": false,
+        "quiescent": false,
+        "stableFrames": 0,
+        "baselineUpdated": false,
+        "noiseLevel": {
+          "pinch": 0.0095,
+          "grasp": 0.0637
+        }
+      },
+      "context": {
+        "game": "TARGET",
+        "expectedGestures": [
+          "pinch"
+        ]
+      },
+      "thresholds": {
+        "pinchGrab": 1.2,
+        "pinchRelease": 0.78,
+        "graspGrab": 1.8,
+        "graspRelease": 1,
+        "modulatedGraspThreshold": 1.8
+      },
+      "message": "Validation session finished."
+    }
+  ],
+  "researchBuffer": []
+}

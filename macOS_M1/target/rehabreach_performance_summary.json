@@ -1,0 +1,74 @@
+{
+  "hardware": {
+    "browser": "Chrome",
+    "os": "macOS",
+    "cpuCores": 8,
+    "deviceMemory": "16 GB",
+    "gpuRenderer": "WebGL Supported",
+    "cameraResolution": "1280x720",
+    "cameraFPS": 30
+  },
+  "rendering": {
+    "renderFps": {
+      "count": 3573,
+      "mean": 59.99,
+      "stdDev": 0,
+      "min": 59.99,
+      "max": 59.99,
+      "formatted": "59.99 ± 0.00"
+    },
+    "frameTimeMs": {
+      "count": 3573,
+      "mean": 16.67,
+      "stdDev": 0,
+      "min": 16.67,
+      "max": 16.67,
+      "formatted": "16.67 ± 0.00"
+    },
+    "droppedFramePercentage": 0
+  },
+  "tracking": {
+    "trackingAvailabilityPercentage": 100,
+    "trackingLossEventsCount": 0,
+    "trackingRecoveryTimeMs": {
+      "count": 0,
+      "mean": 0,
+      "stdDev": 0,
+      "min": 0,
+      "max": 0,
+      "formatted": "N/A"
+    },
+    "mediapipeInferenceTimeMs": {
+      "count": 1555,
+      "mean": 16.18,
+      "stdDev": 4.01,
+      "min": 9.7,
+      "max": 47.5,
+      "formatted": "16.18 ± 4.01"
+    }
+  },
+  "pipeline": {
+    "totalEndToEndLatencyMs": {
+      "count": 3573,
+      "mean": 32.47,
+      "stdDev": 2.81,
+      "min": 26.37,
+      "max": 47.67,
+      "formatted": "32.47 ± 2.81"
+    }
+  },
+  "memory": {
+    "meanHeapMB": 45.42,
+    "peakHeapMB": 54.04
+  },
+  "publicationTable": {
+    "Camera Resolution": "1280x720",
+    "Camera FPS": "30 FPS",
+    "Mean Render FPS": "60.0 ± 0.0",
+    "Tracking Availability": "100.0%",
+    "MediaPipe Inference Time": "16.2 ± 4.0 ms",
+    "End-to-End Latency": "32.5 ± 2.8 ms",
+    "Mean Heap Memory": "45.4 MB",
+    "Peak Heap Memory": "54.0 MB"
+  }
+}
